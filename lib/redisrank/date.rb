@@ -1,4 +1,4 @@
-module Redistat
+module Redisrank
   class Date
 
     attr_accessor :year

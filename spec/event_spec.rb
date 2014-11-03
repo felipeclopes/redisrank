@@ -1,7 +1,7 @@
 require "spec_helper"
 
-describe Redistat::Event do
-  include Redistat::Database
+describe Redisrank::Event do
+  include Redisrank::Database
 
   before(:each) do
     db.flushdb
@@ -12,7 +12,7 @@ describe Redistat::Event do
     @meta = {'user_id' => 239}
     @options = {:depth => :hour}
     @date = Time.now
-    @event = Redistat::Event.new(@scope, @label, @date, @stats, @options, @meta)
+    @event = Redisrank::Event.new(@scope, @label, @date, @stats, @options, @meta)
   end
 
   it "should initialize properly" do
@@ -43,7 +43,7 @@ describe Redistat::Event do
   end
 
   it "should increment next_id" do
-    event = Redistat::Event.new("VisitorCount", @label, @date, @stats, @options, @meta)
+    event = Redisrank::Event.new("VisitorCount", @label, @date, @stats, @options, @meta)
     @event.next_id.should == 1
     event.next_id.should == 1
     @event.next_id.should == 2
@@ -51,18 +51,18 @@ describe Redistat::Event do
   end
 
   it "should store event properly" do
-    @event = Redistat::Event.new(@scope, @label, @date, @stats, @options.merge({:store_event => true}), @meta)
-    @event.new?.should be_true
+    @event = Redisrank::Event.new(@scope, @label, @date, @stats, @options.merge({:store_event => true}), @meta)
+    expect(@event.new?).to be true
     @event.save
-    @event.new?.should be_false
+    expect(@event.new?).to be false
     keys = db.keys "*"
-    keys.should include("#{@event.scope}#{Redistat::KEY_EVENT}#{@event.id}")
-    keys.should include("#{@event.scope}#{Redistat::KEY_EVENT_IDS}")
+    keys.should include("#{@event.scope}#{Redisrank::KEY_EVENT}#{@event.id}")
+    keys.should include("#{@event.scope}#{Redisrank::KEY_EVENT_IDS}")
   end
 
   it "should find event by id" do
-    @event = Redistat::Event.new(@scope, @label, @date, @stats, @options.merge({:store_event => true}), @meta).save
-    fetched = Redistat::Event.find(@scope, @event.id)
+    @event = Redisrank::Event.new(@scope, @label, @date, @stats, @options.merge({:store_event => true}), @meta).save
+    fetched = Redisrank::Event.find(@scope, @event.id)
     @event.scope.to_s.should == fetched.scope.to_s
     @event.label.to_s.should == fetched.label.to_s
     @event.date.to_s.should == fetched.date.to_s
@@ -72,11 +72,12 @@ describe Redistat::Event do
 
   it "should store summarized statistics" do
     2.times do |i|
-      @event = Redistat::Event.new(@scope, @label, @date, @stats, @options, @meta).save
-      Redistat::Date::DEPTHS.each do |depth|
-        summary = db.hgetall @event.key.to_s(depth)
-        summary.should have_at_least(1).items
-        summary["views"].should == (i+1).to_s
+      @event = Redisrank::Event.new(@scope, @label, @date, @stats, @options, @meta).save
+      Redisrank::Date::DEPTHS.each do |depth|
+        summary = db.zrevrange @event.key.to_s(depth), 0, -1, :with_scores => true
+        expect(summary.count).to be > 0
+        expect(summary.first.first).to eq("views")
+        expect(summary.first.last).to eq(1)
         break if depth == :hour
       end
     end

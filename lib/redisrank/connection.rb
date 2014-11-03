@@ -1,6 +1,6 @@
 require 'monitor'
 
-module Redistat
+module Redisrank
   module Connection
 
     REQUIRED_SERVER_VERSION = "1.3.10"

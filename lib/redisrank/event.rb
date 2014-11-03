@@ -1,4 +1,4 @@
-module Redistat
+module Redisrank
   class Event
     include Database
     include Options

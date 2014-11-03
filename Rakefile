@@ -62,7 +62,7 @@ end
 # Misc.
 #
 
-desc "Start an irb console with Redistat pre-loaded."
+desc "Start an irb console with Redisrank pre-loaded."
 task :console do
   exec "irb -r spec/spec_helper"
 end

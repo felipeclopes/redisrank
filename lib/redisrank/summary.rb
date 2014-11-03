@@ -1,4 +1,4 @@
-module Redistat
+module Redisrank
   class Summary
     include Database
 
@@ -14,7 +14,7 @@ module Redistat
       end
 
       def buffer
-        Redistat.buffer
+        Redisrank.buffer
       end
 
       def update_all(key, stats = {}, depth_limit = nil, opts = {})
@@ -54,8 +54,9 @@ module Redistat
       end
 
       def update_fields(key, stats, depth, opts = {})
-        stats.each do |field, value|
-          db(opts[:connection_ref]).hincrby key.to_s(depth), field, value
+        stats.each do |member, score|
+          exists = db(opts[:connection_ref]).zscore(key.to_s(depth), member)
+          db(opts[:connection_ref]).zadd key.to_s(depth), score, member if (exists || 0) < score
         end
 
         if opts[:expire] && !opts[:expire][depth].nil?
@@ -66,18 +67,18 @@ module Redistat
       def inject_group_summaries!(stats)
         summaries = {}
         stats.each do |key, value|
-          parts = key.to_s.split(Redistat.group_separator)
+          parts = key.to_s.split(Redisrank.group_separator)
           parts.pop
           if parts.size > 0
             sum_parts = []
             parts.each do |part|
               sum_parts << part
-              sum_key = sum_parts.join(Redistat.group_separator)
+              sum_key = sum_parts.join(Redisrank.group_separator)
               (summaries.has_key?(sum_key)) ? summaries[sum_key] += value : summaries[sum_key] = value
             end
           end
         end
-        stats.merge_and_incr!(summaries)
+        stats.merge_to_max!(summaries)
       end
 
       def inject_group_summaries(stats)

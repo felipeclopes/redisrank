@@ -1,4 +1,4 @@
-module Redistat
+module Redisrank
   class Key
     include Database
     include Options
@@ -22,7 +22,7 @@ module Redistat
     end
 
     def date=(input)
-      @date = (input.instance_of?(Redistat::Date)) ? input : Date.new(input) # Redistat::Date, not ::Date
+      @date = (input.instance_of?(Redisrank::Date)) ? input : Date.new(input) # Redisrank::Date, not ::Date
     end
     attr_reader :date
 
@@ -35,12 +35,12 @@ module Redistat
     # end
 
     def scope=(input)
-      @scope = (input.instance_of?(Redistat::Scope)) ? input : Scope.new(input)
+      @scope = (input.instance_of?(Redisrank::Scope)) ? input : Scope.new(input)
     end
     attr_reader :scope
 
     def label=(input)
-      @label = (input.instance_of?(Redistat::Label)) ? input : Label.create(input, @options)
+      @label = (input.instance_of?(Redisrank::Label)) ? input : Label.create(input, @options)
     end
     attr_reader :label
 
@@ -56,7 +56,7 @@ module Redistat
       members = db.smembers("#{scope}#{LABEL_INDEX}#{@label}") || [] # older versions of Redis returns nil
       members.map { |member|
         child_label = [@label, member].reject { |i| i.nil? }
-        self.class.new(self.scope, child_label.join(Redistat.group_separator), self.date, @options)
+        self.class.new(self.scope, child_label.join(Redisrank.group_separator), self.date, @options)
       }
     end
 

@@ -1,6 +1,6 @@
-require 'redistat/core_ext/hash'
+require 'redisrank/core_ext/hash'
 
-module Redistat
+module Redisrank
   class Buffer
     include Synchronize
 
@@ -38,7 +38,7 @@ module Redistat
                              :opts        => opts }
         end
 
-        queue[buffkey][:stats].merge_and_incr!(stats)
+        queue[buffkey][:stats].merge_to_max!(stats)
         incr_count
 
         # return items to be flushed if buffer size limit has been reached

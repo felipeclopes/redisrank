@@ -1,23 +1,16 @@
-# Redistat [![Build Status](https://secure.travis-ci.org/jimeh/redistat.png)](http://travis-ci.org/jimeh/redistat)
-
 A Redis-backed statistics storage and querying library written in Ruby.
 
-Redistat was originally created to replace a small hacked together statistics
-collection solution which was MySQL-based. When I started I had a short list
-of requirements:
+Redisrank was created taking as reference a Gem called Redistat by Jimeh.
+The motivations for the gem creation were similar to the Redistat too, I had a
+collection solution which was MySQL-based with the following requirements.
 
-* Store and increment/decrement integer values (counters, etc)
-* Up to the second statistics available at all times
+* Fetch the top most ... 
+* This ranks should be fetched in any time-range
 * Screamingly fast
-
-Redis fits perfectly with all of these requirements. It has atomic operations
-like increment, and it's lightning fast, meaning if the data is structured
-well, the initial stats reporting call will store data in a format that's
-instantly retrievable just as fast.
 
 ## Installation
 
-    gem install redistat
+    gem install redisrank
 
 If you are using Ruby 1.8.x, it's recommended you also install the
 `SystemTimer` gem, as the Redis gem will otherwise complain.
@@ -27,15 +20,15 @@ If you are using Ruby 1.8.x, it's recommended you also install the
 view\_stats.rb:
 
 ```ruby
-require 'redistat'
+require 'redisrank'
 
-class ViewStats
-  include Redistat::Model
+class ViewRank
+  include Redisrank::Model
 end
 
-# if using Redistat in multiple threads set this
+# if using Redisrank in multiple threads set this
 # somewhere in the beginning of the execution stack
-Redistat.thread_safe = true
+Redisrank.thread_safe = true
 ```
 
 
@@ -44,100 +37,32 @@ Redistat.thread_safe = true
 Store:
 
 ```ruby
-ViewStats.store('hello', {:world => 4})
-ViewStats.store('hello', {:world => 2}, 2.hours.ago)
+ViewRank.store('hello', {:world => 4})
+ViewRank.store('hello', {:world => 2}, 2.hours.ago)
 ```
 
 Fetch:
 
 ```ruby
-ViewStats.find('hello', 1.hour.ago, 1.hour.from_now).all
+ViewRank.find('hello', 1.hour.ago, 1.hour.from_now).all
   #=> [{'world' => 4}]
-ViewStats.find('hello', 1.hour.ago, 1.hour.from_now).total
+ViewRank.find('hello', 3.hour.ago, 1.hour.from_now).rank
   #=> {'world' => 4}
-ViewStats.find('hello', 3.hour.ago, 1.hour.from_now).total
-  #=> {'world' => 6}
+ViewRank.find('hello', 3.hour.ago, 1.hour.ago).rank
+  #=> {'world' => 2}
 ```
 
+### Other usefull Use Cases
 
-### Advanced Example
-
-Store page view on product #44 from Chrome 11:
-
-```ruby
-ViewStats.store('views/product/44', {'count/chrome/11' => 1})
-```
-
-Fetch product #44 stats:
-
-```ruby
-ViewStats.find('views/product/44', 23.hours.ago, 1.hour.from_now).total
-  #=> { 'count' => 1, 'count/chrome' => 1, 'count/chrome/11' => 1 }
-```
-
-Store a page view on product #32 from Firefox 3:
-
-```ruby
-ViewStats.store('views/product/32', {'count/firefox/3' => 1})
-```
-
-Fetch product #32 stats:
-
-```ruby
-ViewStats.find('views/product/32', 23.hours.ago, 1.hour.from_now).total
-  #=> { 'count' => 1, 'count/firefox' => 1, 'count/firefox/3' => 1 }
-```
-
-Fetch stats for all products:
-
-```ruby
-ViewStats.find('views/product', 23.hours.ago, 1.hour.from_now).total
-  #=> { 'count'           => 2,
-  #     'count/chrome'    => 1,
-  #     'count/chrome/11' => 1,
-  #     'count/firefox'   => 1,
-  #     'count/firefox/3' => 1 }
-```
-
-Store a 404 error view:
-
-```ruby
-ViewStats.store('views/error/404', {'count/chrome/9' => 1})
-```
-
-Fetch stats for all views across the board:
-
-```ruby
-ViewStats.find('views', 23.hours.ago, 1.hour.from_now).total
-  #=> { 'count'           => 3,
-  #     'count/chrome'    => 2,
-  #     'count/chrome/9'  => 1,
-  #     'count/chrome/11' => 1,
-  #     'count/firefox'   => 1,
-  #     'count/firefox/3' => 1 }
-```
-
-Fetch list of products known to Redistat:
-
-```ruby
-finder = ViewStats.find('views/product', 23.hours.ago, 1.hour.from_now)
-finder.children.map { |child| child.label.me }
-  #=> [ "32", "44" ]
-finder.children.map { |child| child.label.to_s }
-  #=> [ "views/products/32", "views/products/44" ]
-finder.children.map { |child| child.total }
-  #=> [ { "count" => 1, "count/firefox" => 1, "count/firefox/3" => 1 },
-  #     { "count" => 1, "count/chrome"  => 1, "count/chrome/11" => 1 } ]
-```
 
 
 ## Terminology
 
 ### Scope
 
-A type of global-namespace for storing data. When using the `Redistat::Model`
+A type of global-namespace for storing data. When using the `Redisrank::Model`
 wrapper, the scope is automatically set to the class name. In the examples
-above, the scope is `ViewStats`. Can be overridden by calling the `#scope`
+above, the scope is `ViewRank`. Can be overridden by calling the `#scope`
 class method on your model class.
 
 ### Label
@@ -150,10 +75,10 @@ Labels support multiple grouping levels by splitting the label string with `/`
 and storing the same stats for each level. For example, when storing data to a
 label called `views/product/44`, the data is stored for the label you specify,
 and also for `views/product` and `views`. You may also configure a different
-group separator using the `Redistat.group_separator=` method. For example:
+group separator using the `Redisrank.group_separator=` method. For example:
 
 ```ruby
-Redistat.group_separator = '|'
+Redisrank.group_separator = '|'
 ```
 
 A word of caution: Don't use a crazy number of group levels. As two levels
@@ -163,7 +88,7 @@ to Redis.
 
 ### Input Statistics Data
 
-You provide Redistat with the data you want to store using a Ruby Hash. This
+You provide Redisrank with the data you want to store using a Ruby Hash. This
 data is then stored in a corresponding Redis hash with identical key/field
 names.
 
@@ -174,7 +99,7 @@ Redis, so avoid using 10-15 levels.
 ### Depth (Storage Accuracy)
 
 Define how accurately data should be stored, and how accurately it's looked up
-when fetching it again. By default Redistat uses a depth value of `:hour`,
+when fetching it again. By default Redisrank uses a depth value of `:hour`,
 which means it's impossible to separate two events which were stored at 10:18
 and 10:23. In Redis they are both stored within a date key of `2011031610`.
 
@@ -185,7 +110,7 @@ depths are: `:year`, `:month`, `:day`, `:hour`, `:min`, `:sec`
 
 When you fetch data, you need to specify a start and an end time. The
 selection behavior can seem a bit weird at first when, but makes sense when
-you understand how Redistat works internally.
+you understand how Redisrank works internally.
 
 For example, if we are using a Depth value of `:hour`, and we trigger a fetch
 call starting at `1.hour.ago` (13:34), till `Time.now` (14:34), only stats
@@ -196,8 +121,8 @@ end time of `1.hour.from_now`.
 
 ### The Finder Object
 
-Calling the `#find` method on a Redistat model class returns a
-`Redistat::Finder` object. The finder is a lazy-loaded gateway to your
+Calling the `#find` method on a Redisrank model class returns a
+`Redisrank::Finder` object. The finder is a lazy-loaded gateway to your
 data. Meaning you can create a new finder, and modify instantiated finder's
 label, scope, dates, and more. It does not call Redis and fetch the data until
 you call `#total`, `#all`, `#map`, `#each`, or `#each_with_index` on the
@@ -220,8 +145,8 @@ stats for 6 hours, hourly stats for 3 months, daily stats for 2 years, and
 yearly stats are retained forever.
 
 ```ruby
-class ViewStats
-  include Redistat::Model
+class ViewRank
+  include Redisrank::Model
 
   depth :sec
 
@@ -242,7 +167,7 @@ specify are simply passed to the `Redis#expire` method.
 
 ### Storing / Writing
 
-Redistat stores all data into a Redis hash keys. The Redis key name the used
+Redisrank stores all data into a Redis hash keys. The Redis key name the used
 consists of three parts. The scope, label, and datetime:
 
     {scope}/{label}:{datetime}
@@ -250,7 +175,7 @@ consists of three parts. The scope, label, and datetime:
 For example, this...
 
 ```ruby
-ViewStats.store('views/product/44', {'count/chrome/11' => 1})
+ViewRank.store('views/product/44', {'count/chrome/11' => 1})
 ```
 
 ...would store the follow hash of data...
@@ -261,18 +186,18 @@ ViewStats.store('views/product/44', {'count/chrome/11' => 1})
 
 ...to all 12 of these Redis hash keys...
 
-    ViewStats/views:2011
-    ViewStats/views:201103
-    ViewStats/views:20110315
-    ViewStats/views:2011031510
-    ViewStats/views/product:2011
-    ViewStats/views/product:201103
-    ViewStats/views/product:20110315
-    ViewStats/views/product:2011031510
-    ViewStats/views/product/44:2011
-    ViewStats/views/product/44:201103
-    ViewStats/views/product/44:20110315
-    ViewStats/views/product/44:2011031510
+    ViewRank/views:2011
+    ViewRank/views:201103
+    ViewRank/views:20110315
+    ViewRank/views:2011031510
+    ViewRank/views/product:2011
+    ViewRank/views/product:201103
+    ViewRank/views/product:20110315
+    ViewRank/views/product:2011031510
+    ViewRank/views/product/44:2011
+    ViewRank/views/product/44:201103
+    ViewRank/views/product/44:20110315
+    ViewRank/views/product/44:2011031510
 
 ...by creating the Redis key, and/or hash field if needed, otherwise it simply
 increments the already existing data.
@@ -280,9 +205,9 @@ increments the already existing data.
 It would also create the following Redis sets to keep track of which child
 labels are available:
 
-    ViewStats.label_index:
-    ViewStats.label_index:views
-    ViewStats.label_index:views/product
+    ViewRank.label_index:
+    ViewRank.label_index:views
+    ViewRank.label_index:views/product
 
 It should now be more obvious to you why you should think about how you use
 the grouping capabilities so you don't go crazy and use 10-15 levels. Storing
@@ -295,7 +220,7 @@ less than 0.15ms (0.00015 seconds) on my local machine.
 
 ### Fetching / Reading
 
-By default when fetching statistics, Redistat will figure out how to do the
+By default when fetching statistics, Redisrank will figure out how to do the
 least number of reads from Redis. First it checks how long range you're
 fetching. If whole days, months or years for example fit within the start and
 end dates specified, it will fetch the one key for the day/month/year in
@@ -309,7 +234,7 @@ calls to `hgetall` instead of 29 if each whole day was fetched.
 ### Buffer
 
 The buffer is a new, still semi-beta, feature aimed to reduce the number of
-Redis `hincrby` that Redistat sends. This should only really be useful when
+Redis `hincrby` that Redisrank sends. This should only really be useful when
 you're hitting north of 30,000 Redis requests per second, if your Redis server
 has limited resources, or against my recommendation you've opted to use 10,
 20, or more label grouping levels.
@@ -317,8 +242,8 @@ has limited resources, or against my recommendation you've opted to use 10,
 Buffering tries to fold together multiple `store` calls into as few as
 possible by merging the statistics hashes from all calls and groups them based
 on scope, label, date depth, and more. You configure the the buffer by setting
-`Redistat.buffer_size` to an integer higher than 1. This basically tells
-Redistat how many `store` calls to buffer in memory before writing all data to
+`Redisrank.buffer_size` to an integer higher than 1. This basically tells
+Redisrank how many `store` calls to buffer in memory before writing all data to
 Redis.
 
 
@@ -331,9 +256,9 @@ Redis.
 
 ## Credits
 
-[Global Personals](http://globalpersonals.co.uk/) deserves a thank
-you. Currently the primary user of Redistat, they've allowed me to spend some
-company time to further develop the project.
+[Encore Alert](http://encorealert.com/) that allowed me to spend some
+company time to further develop the project. @jimeh for creating the Redistat 
+that was not a inspiration but the base version of Redisrank.
 
 
 ## Note on Patches/Pull Requests

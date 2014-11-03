@@ -1,0 +1,3349 @@
+Searching 85 files for "redisrank"
+
+/Users/felipeclopes/projects/redisrank/coverage/.resultset.json:
+    2    "RSpec": {
+    3      "coverage": {
+    4:       "/Users/felipeclopes/projects/redisrank/lib/redisrank.rb": [
+    5          null,
+    6          1,
+    .
+  110          null
+  111        ],
+  112:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/mixins/options.rb": [
+  113          1,
+  114          1,
+  ...
+  153          null
+  154        ],
+  155:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/mixins/synchronize.rb": [
+  156          1,
+  157          null,
+  ...
+  207          null
+  208        ],
+  209:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/mixins/database.rb": [
+  210          1,
+  211          1,
+  ...
+  220          null
+  221        ],
+  222:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/mixins/date_helper.rb": [
+  223          1,
+  224          1,
+  ...
+  230          null
+  231        ],
+  232:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/connection.rb": [
+  233          1,
+  234          null,
+  ...
+  321          null
+  322        ],
+  323:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/buffer.rb": [
+  324          1,
+  325          null,
+  ...
+  433          null
+  434        ],
+  435:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext/hash.rb": [
+  436          1,
+  437          null,
+  ...
+  455          null
+  456        ],
+  457:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/collection.rb": [
+  458          1,
+  459          1,
+  ...
+  477          null
+  478        ],
+  479:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/date.rb": [
+  480          1,
+  481          1,
+  ...
+  567          null
+  568        ],
+  569:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/event.rb": [
+  570          1,
+  571          1,
+  ...
+  667          null
+  668        ],
+  669:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/finder.rb": [
+  670          1,
+  671          null,
+  ...
+  914          null
+  915        ],
+  916:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/finder/date_set.rb": [
+  917          1,
+  918          1,
+  ...
+ 1015          null
+ 1016        ],
+ 1017:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/key.rb": [
+ 1018          1,
+ 1019          1,
+ ....
+ 1101          null
+ 1102        ],
+ 1103:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/label.rb": [
+ 1104          1,
+ 1105          1,
+ ....
+ 1172          null
+ 1173        ],
+ 1174:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/model.rb": [
+ 1175          1,
+ 1176          1,
+ ....
+ 1251          null
+ 1252        ],
+ 1253:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/result.rb": [
+ 1254          1,
+ 1255          null,
+ ....
+ 1271          null
+ 1272        ],
+ 1273:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/scope.rb": [
+ 1274          1,
+ 1275          1,
+ ....
+ 1291          null
+ 1292        ],
+ 1293:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/summary.rb": [
+ 1294          1,
+ 1295          1,
+ ....
+ 1383          null
+ 1384        ],
+ 1385:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext.rb": [
+ 1386          1,
+ 1387          1,
+ ....
+ 1390          1
+ 1391        ],
+ 1392:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext/bignum.rb": [
+ 1393          1,
+ 1394          1,
+ ....
+ 1400          null
+ 1401        ],
+ 1402:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext/date.rb": [
+ 1403          1,
+ 1404          1,
+ ....
+ 1410          null
+ 1411        ],
+ 1412:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext/fixnum.rb": [
+ 1413          1,
+ 1414          1,
+ ....
+ 1420          null
+ 1421        ],
+ 1422:       "/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext/time.rb": [
+ 1423          1,
+ 1424          1,
+
+/Users/felipeclopes/projects/redisrank/coverage/index.html:
+   52        
+   53        <tr>
+   54:         <td class="strong"><a href="#5f3d02dddf749f33b220f1d8a1b532440c0dc27e" class="src_link" title="lib/redisrank.rb">lib/redisrank.rb</a></td>
+   55          <td class="green strong">90.91 %</td>
+   56          <td>106</td>
+   ..
+   62        
+   63        <tr>
+   64:         <td class="strong"><a href="#8c1481ec29601d06aa57b3e587a67a7834a4f6e4" class="src_link" title="lib/redisrank/buffer.rb">lib/redisrank/buffer.rb</a></td>
+   65          <td class="green strong">100.0 %</td>
+   66          <td>110</td>
+   ..
+   72        
+   73        <tr>
+   74:         <td class="strong"><a href="#d3e9fd19771bd479d9a665ed2cff793490e15462" class="src_link" title="lib/redisrank/collection.rb">lib/redisrank/collection.rb</a></td>
+   75          <td class="green strong">100.0 %</td>
+   76          <td>20</td>
+   ..
+   82        
+   83        <tr>
+   84:         <td class="strong"><a href="#ca4cc2e3bbfbe3ee94db3576ffb8aa464737cd80" class="src_link" title="lib/redisrank/connection.rb">lib/redisrank/connection.rb</a></td>
+   85          <td class="yellow strong">86.67 %</td>
+   86          <td>89</td>
+   ..
+   92        
+   93        <tr>
+   94:         <td class="strong"><a href="#56543f0ff162392b04cff944aa846343fdb8c953" class="src_link" title="lib/redisrank/core_ext.rb">lib/redisrank/core_ext.rb</a></td>
+   95          <td class="green strong">100.0 %</td>
+   96          <td>5</td>
+   ..
+  102        
+  103        <tr>
+  104:         <td class="strong"><a href="#0199b10aa595ac3dc02798926112446fa7b48aff" class="src_link" title="lib/redisrank/core_ext/bignum.rb">lib/redisrank/core_ext/bignum.rb</a></td>
+  105          <td class="red strong">75.0 %</td>
+  106          <td>8</td>
+  ...
+  112        
+  113        <tr>
+  114:         <td class="strong"><a href="#fd5639c9afa530f6aad29ca2209fe1a8e36ce611" class="src_link" title="lib/redisrank/core_ext/date.rb">lib/redisrank/core_ext/date.rb</a></td>
+  115          <td class="green strong">100.0 %</td>
+  116          <td>8</td>
+  ...
+  122        
+  123        <tr>
+  124:         <td class="strong"><a href="#228cb580a293e5d779c815fe93d6b58d00f168b1" class="src_link" title="lib/redisrank/core_ext/fixnum.rb">lib/redisrank/core_ext/fixnum.rb</a></td>
+  125          <td class="green strong">100.0 %</td>
+  126          <td>8</td>
+  ...
+  132        
+  133        <tr>
+  134:         <td class="strong"><a href="#ff4375643e395caeeb60ca12edb2ec6c97c9fdb1" class="src_link" title="lib/redisrank/core_ext/hash.rb">lib/redisrank/core_ext/hash.rb</a></td>
+  135          <td class="green strong">100.0 %</td>
+  136          <td>20</td>
+  ...
+  142        
+  143        <tr>
+  144:         <td class="strong"><a href="#b29d797d5842d9292883d53729f272f232c03286" class="src_link" title="lib/redisrank/core_ext/time.rb">lib/redisrank/core_ext/time.rb</a></td>
+  145          <td class="green strong">100.0 %</td>
+  146          <td>3</td>
+  ...
+  152        
+  153        <tr>
+  154:         <td class="strong"><a href="#c3e929b1fdac4c8b5d6f7444bc37de594ded7c75" class="src_link" title="lib/redisrank/date.rb">lib/redisrank/date.rb</a></td>
+  155          <td class="green strong">96.49 %</td>
+  156          <td>88</td>
+  ...
+  162        
+  163        <tr>
+  164:         <td class="strong"><a href="#109532c307fabc080fa13f73d588b098fc936aa1" class="src_link" title="lib/redisrank/event.rb">lib/redisrank/event.rb</a></td>
+  165          <td class="green strong">96.08 %</td>
+  166          <td>98</td>
+  ...
+  172        
+  173        <tr>
+  174:         <td class="strong"><a href="#9364489efe6fdf47db14281f184659528d91e920" class="src_link" title="lib/redisrank/finder.rb">lib/redisrank/finder.rb</a></td>
+  175          <td class="green strong">98.68 %</td>
+  176          <td>245</td>
+  ...
+  182        
+  183        <tr>
+  184:         <td class="strong"><a href="#f08239cbf009f185ee396584e1c11d4fca61da14" class="src_link" title="lib/redisrank/finder/date_set.rb">lib/redisrank/finder/date_set.rb</a></td>
+  185          <td class="green strong">100.0 %</td>
+  186          <td>99</td>
+  ...
+  192        
+  193        <tr>
+  194:         <td class="strong"><a href="#091e0442202c28d13d16aaf647f801bdacaaf43f" class="src_link" title="lib/redisrank/key.rb">lib/redisrank/key.rb</a></td>
+  195          <td class="green strong">100.0 %</td>
+  196          <td>84</td>
+  ...
+  202        
+  203        <tr>
+  204:         <td class="strong"><a href="#f084e7730511c8254398e9d8898036f80110b94b" class="src_link" title="lib/redisrank/label.rb">lib/redisrank/label.rb</a></td>
+  205          <td class="green strong">100.0 %</td>
+  206          <td>69</td>
+  ...
+  212        
+  213        <tr>
+  214:         <td class="strong"><a href="#14bf81df729f5b64ae04d4cc23dcaf066ff47460" class="src_link" title="lib/redisrank/mixins/database.rb">lib/redisrank/mixins/database.rb</a></td>
+  215          <td class="green strong">100.0 %</td>
+  216          <td>11</td>
+  ...
+  222        
+  223        <tr>
+  224:         <td class="strong"><a href="#26682b6e33149c5227ac95e96a64009cc562842c" class="src_link" title="lib/redisrank/mixins/date_helper.rb">lib/redisrank/mixins/date_helper.rb</a></td>
+  225          <td class="green strong">100.0 %</td>
+  226          <td>8</td>
+  ...
+  232        
+  233        <tr>
+  234:         <td class="strong"><a href="#e3ee422da87b12823b5844f03ab6331ad5dca1b6" class="src_link" title="lib/redisrank/mixins/options.rb">lib/redisrank/mixins/options.rb</a></td>
+  235          <td class="green strong">95.24 %</td>
+  236          <td>41</td>
+  ...
+  242        
+  243        <tr>
+  244:         <td class="strong"><a href="#fa2133f6ba899094454baa3bb930b76407532812" class="src_link" title="lib/redisrank/mixins/synchronize.rb">lib/redisrank/mixins/synchronize.rb</a></td>
+  245          <td class="green strong">100.0 %</td>
+  246          <td>52</td>
+  ...
+  252        
+  253        <tr>
+  254:         <td class="strong"><a href="#1fdcf8497be392cb64905957375de3cc3e0d7ccb" class="src_link" title="lib/redisrank/model.rb">lib/redisrank/model.rb</a></td>
+  255          <td class="green strong">100.0 %</td>
+  256          <td>77</td>
+  ...
+  262        
+  263        <tr>
+  264:         <td class="strong"><a href="#4b19da367c091d280cf1621d5e4bfdd2c90e04e9" class="src_link" title="lib/redisrank/result.rb">lib/redisrank/result.rb</a></td>
+  265          <td class="green strong">100.0 %</td>
+  266          <td>18</td>
+  ...
+  272        
+  273        <tr>
+  274:         <td class="strong"><a href="#51418f37251ac0c95c6a3b8eecc5c7f4a4fa91a7" class="src_link" title="lib/redisrank/scope.rb">lib/redisrank/scope.rb</a></td>
+  275          <td class="green strong">100.0 %</td>
+  276          <td>18</td>
+  ...
+  282        
+  283        <tr>
+  284:         <td class="strong"><a href="#a2ff63e1a8c4e9c28925432188451353d3cbf689" class="src_link" title="lib/redisrank/summary.rb">lib/redisrank/summary.rb</a></td>
+  285          <td class="green strong">100.0 %</td>
+  286          <td>90</td>
+  ...
+  309          <div class="source_table" id="5f3d02dddf749f33b220f1d8a1b532440c0dc27e">
+  310    <div class="header">
+  311:     <h3>lib/redisrank.rb</h3>
+  312      <h4><span class="green">90.91 %</span> covered</h4>
+  313      <div>
+  ...
+  432            <span class="hits">1</span>
+  433            
+  434:           <code class="ruby">require &#39;redisrank/mixins/options&#39;</code>
+  435          </li>
+  436        
+  ...
+  438            <span class="hits">1</span>
+  439            
+  440:           <code class="ruby">require &#39;redisrank/mixins/synchronize&#39;</code>
+  441          </li>
+  442        
+  ...
+  444            <span class="hits">1</span>
+  445            
+  446:           <code class="ruby">require &#39;redisrank/mixins/database&#39;</code>
+  447          </li>
+  448        
+  ...
+  450            <span class="hits">1</span>
+  451            
+  452:           <code class="ruby">require &#39;redisrank/mixins/date_helper&#39;</code>
+  453          </li>
+  454        
+  ...
+  462            <span class="hits">1</span>
+  463            
+  464:           <code class="ruby">require &#39;redisrank/connection&#39;</code>
+  465          </li>
+  466        
+  ...
+  468            <span class="hits">1</span>
+  469            
+  470:           <code class="ruby">require &#39;redisrank/buffer&#39;</code>
+  471          </li>
+  472        
+  ...
+  474            <span class="hits">1</span>
+  475            
+  476:           <code class="ruby">require &#39;redisrank/collection&#39;</code>
+  477          </li>
+  478        
+  ...
+  480            <span class="hits">1</span>
+  481            
+  482:           <code class="ruby">require &#39;redisrank/date&#39;</code>
+  483          </li>
+  484        
+  ...
+  486            <span class="hits">1</span>
+  487            
+  488:           <code class="ruby">require &#39;redisrank/event&#39;</code>
+  489          </li>
+  490        
+  ...
+  492            <span class="hits">1</span>
+  493            
+  494:           <code class="ruby">require &#39;redisrank/finder&#39;</code>
+  495          </li>
+  496        
+  ...
+  498            <span class="hits">1</span>
+  499            
+  500:           <code class="ruby">require &#39;redisrank/key&#39;</code>
+  501          </li>
+  502        
+  ...
+  504            <span class="hits">1</span>
+  505            
+  506:           <code class="ruby">require &#39;redisrank/label&#39;</code>
+  507          </li>
+  508        
+  ...
+  510            <span class="hits">1</span>
+  511            
+  512:           <code class="ruby">require &#39;redisrank/model&#39;</code>
+  513          </li>
+  514        
+  ...
+  516            <span class="hits">1</span>
+  517            
+  518:           <code class="ruby">require &#39;redisrank/result&#39;</code>
+  519          </li>
+  520        
+  ...
+  522            <span class="hits">1</span>
+  523            
+  524:           <code class="ruby">require &#39;redisrank/scope&#39;</code>
+  525          </li>
+  526        
+  ...
+  528            <span class="hits">1</span>
+  529            
+  530:           <code class="ruby">require &#39;redisrank/summary&#39;</code>
+  531          </li>
+  532        
+  ...
+  534            <span class="hits">1</span>
+  535            
+  536:           <code class="ruby">require &#39;redisrank/version&#39;</code>
+  537          </li>
+  538        
+  ...
+  546            <span class="hits">1</span>
+  547            
+  548:           <code class="ruby">require &#39;redisrank/core_ext&#39;</code>
+  549          </li>
+  550        
+  ...
+  564            <span class="hits">1</span>
+  565            
+  566:           <code class="ruby">module Redistat</code>
+  567          </li>
+  568        
+  ...
+  588            <span class="hits">1</span>
+  589            
+  590:           <code class="ruby">  KEY_LABELS = &quot;Redistat.labels:&quot; # used for reverse label hash lookup</code>
+  591          </li>
+  592        
+  ...
+  858            
+  859            
+  860:           <code class="ruby">      puts &quot;WARNING: Redistat.flush is deprecated. Use Redistat.redis.flushdb instead.&quot;</code>
+  861          </li>
+  862        
+  ...
+  948            <span class="hits">1</span>
+  949            
+  950:           <code class="ruby">  Redistat.buffer.flush(true)</code>
+  951          </li>
+  952        
+  ...
+  963          <div class="source_table" id="8c1481ec29601d06aa57b3e587a67a7834a4f6e4">
+  964    <div class="header">
+  965:     <h3>lib/redisrank/buffer.rb</h3>
+  966      <h4><span class="green">100.0 %</span> covered</h4>
+  967      <div>
+  ...
+  978            <span class="hits">1</span>
+  979            
+  980:           <code class="ruby">require &#39;redisrank/core_ext/hash&#39;</code>
+  981          </li>
+  982        
+  ...
+  990            <span class="hits">1</span>
+  991            
+  992:           <code class="ruby">module Redistat</code>
+  993          </li>
+  994        
+  ...
+ 1641          <div class="source_table" id="d3e9fd19771bd479d9a665ed2cff793490e15462">
+ 1642    <div class="header">
+ 1643:     <h3>lib/redisrank/collection.rb</h3>
+ 1644      <h4><span class="green">100.0 %</span> covered</h4>
+ 1645      <div>
+ ....
+ 1656            <span class="hits">1</span>
+ 1657            
+ 1658:           <code class="ruby">module Redistat</code>
+ 1659          </li>
+ 1660        
+ ....
+ 1779          <div class="source_table" id="ca4cc2e3bbfbe3ee94db3576ffb8aa464737cd80">
+ 1780    <div class="header">
+ 1781:     <h3>lib/redisrank/connection.rb</h3>
+ 1782      <h4><span class="yellow">86.67 %</span> covered</h4>
+ 1783      <div>
+ ....
+ 1806            <span class="hits">1</span>
+ 1807            
+ 1808:           <code class="ruby">module Redistat</code>
+ 1809          </li>
+ 1810        
+ ....
+ 2331          <div class="source_table" id="56543f0ff162392b04cff944aa846343fdb8c953">
+ 2332    <div class="header">
+ 2333:     <h3>lib/redisrank/core_ext.rb</h3>
+ 2334      <h4><span class="green">100.0 %</span> covered</h4>
+ 2335      <div>
+ ....
+ 2346            <span class="hits">1</span>
+ 2347            
+ 2348:           <code class="ruby">require &#39;redisrank/core_ext/bignum&#39;</code>
+ 2349          </li>
+ 2350        
+ ....
+ 2352            <span class="hits">1</span>
+ 2353            
+ 2354:           <code class="ruby">require &#39;redisrank/core_ext/date&#39;</code>
+ 2355          </li>
+ 2356        
+ ....
+ 2358            <span class="hits">1</span>
+ 2359            
+ 2360:           <code class="ruby">require &#39;redisrank/core_ext/fixnum&#39;</code>
+ 2361          </li>
+ 2362        
+ ....
+ 2364            <span class="hits">1</span>
+ 2365            
+ 2366:           <code class="ruby">require &#39;redisrank/core_ext/hash&#39;</code>
+ 2367          </li>
+ 2368        
+ ....
+ 2370            <span class="hits">1</span>
+ 2371            
+ 2372:           <code class="ruby">require &#39;redisrank/core_ext/time&#39;</code>
+ 2373          </li>
+ 2374        
+ ....
+ 2379          <div class="source_table" id="0199b10aa595ac3dc02798926112446fa7b48aff">
+ 2380    <div class="header">
+ 2381:     <h3>lib/redisrank/core_ext/bignum.rb</h3>
+ 2382      <h4><span class="red">75.0 %</span> covered</h4>
+ 2383      <div>
+ ....
+ 2400            <span class="hits">1</span>
+ 2401            
+ 2402:           <code class="ruby">  include Redistat::DateHelper</code>
+ 2403          </li>
+ 2404        
+ ....
+ 2445          <div class="source_table" id="fd5639c9afa530f6aad29ca2209fe1a8e36ce611">
+ 2446    <div class="header">
+ 2447:     <h3>lib/redisrank/core_ext/date.rb</h3>
+ 2448      <h4><span class="green">100.0 %</span> covered</h4>
+ 2449      <div>
+ ....
+ 2466            <span class="hits">1</span>
+ 2467            
+ 2468:           <code class="ruby">  include Redistat::DateHelper</code>
+ 2469          </li>
+ 2470        
+ ....
+ 2511          <div class="source_table" id="228cb580a293e5d779c815fe93d6b58d00f168b1">
+ 2512    <div class="header">
+ 2513:     <h3>lib/redisrank/core_ext/fixnum.rb</h3>
+ 2514      <h4><span class="green">100.0 %</span> covered</h4>
+ 2515      <div>
+ ....
+ 2532            <span class="hits">1</span>
+ 2533            
+ 2534:           <code class="ruby">  include Redistat::DateHelper</code>
+ 2535          </li>
+ 2536        
+ ....
+ 2577          <div class="source_table" id="ff4375643e395caeeb60ca12edb2ec6c97c9fdb1">
+ 2578    <div class="header">
+ 2579:     <h3>lib/redisrank/core_ext/hash.rb</h3>
+ 2580      <h4><span class="green">100.0 %</span> covered</h4>
+ 2581      <div>
+ ....
+ 2715          <div class="source_table" id="b29d797d5842d9292883d53729f272f232c03286">
+ 2716    <div class="header">
+ 2717:     <h3>lib/redisrank/core_ext/time.rb</h3>
+ 2718      <h4><span class="green">100.0 %</span> covered</h4>
+ 2719      <div>
+ ....
+ 2736            <span class="hits">1</span>
+ 2737            
+ 2738:           <code class="ruby">  include Redistat::DateHelper</code>
+ 2739          </li>
+ 2740        
+ ....
+ 2751          <div class="source_table" id="c3e929b1fdac4c8b5d6f7444bc37de594ded7c75">
+ 2752    <div class="header">
+ 2753:     <h3>lib/redisrank/date.rb</h3>
+ 2754      <h4><span class="green">96.49 %</span> covered</h4>
+ 2755      <div>
+ ....
+ 2766            <span class="hits">1</span>
+ 2767            
+ 2768:           <code class="ruby">module Redistat</code>
+ 2769          </li>
+ 2770        
+ ....
+ 3297          <div class="source_table" id="109532c307fabc080fa13f73d588b098fc936aa1">
+ 3298    <div class="header">
+ 3299:     <h3>lib/redisrank/event.rb</h3>
+ 3300      <h4><span class="green">96.08 %</span> covered</h4>
+ 3301      <div>
+ ....
+ 3312            <span class="hits">1</span>
+ 3313            
+ 3314:           <code class="ruby">module Redistat</code>
+ 3315          </li>
+ 3316        
+ ....
+ 3903          <div class="source_table" id="9364489efe6fdf47db14281f184659528d91e920">
+ 3904    <div class="header">
+ 3905:     <h3>lib/redisrank/finder.rb</h3>
+ 3906      <h4><span class="green">98.68 %</span> covered</h4>
+ 3907      <div>
+ ....
+ 3918            <span class="hits">1</span>
+ 3919            
+ 3920:           <code class="ruby">require &#39;redisrank/finder/date_set&#39;</code>
+ 3921          </li>
+ 3922        
+ ....
+ 3930            <span class="hits">1</span>
+ 3931            
+ 3932:           <code class="ruby">module Redistat</code>
+ 3933          </li>
+ 3934        
+ ....
+ 5391          <div class="source_table" id="f08239cbf009f185ee396584e1c11d4fca61da14">
+ 5392    <div class="header">
+ 5393:     <h3>lib/redisrank/finder/date_set.rb</h3>
+ 5394      <h4><span class="green">100.0 %</span> covered</h4>
+ 5395      <div>
+ ....
+ 5406            <span class="hits">1</span>
+ 5407            
+ 5408:           <code class="ruby">module Redistat</code>
+ 5409          </li>
+ 5410        
+ ....
+ 6003          <div class="source_table" id="091e0442202c28d13d16aaf647f801bdacaaf43f">
+ 6004    <div class="header">
+ 6005:     <h3>lib/redisrank/key.rb</h3>
+ 6006      <h4><span class="green">100.0 %</span> covered</h4>
+ 6007      <div>
+ ....
+ 6018            <span class="hits">1</span>
+ 6019            
+ 6020:           <code class="ruby">module Redistat</code>
+ 6021          </li>
+ 6022        
+ ....
+ 6162            <span class="hits">313</span>
+ 6163            
+ 6164:           <code class="ruby">      @date = (input.instance_of?(Redistat::Date)) ? input : Date.new(input) # Redistat::Date, not ::Date</code>
+ 6165          </li>
+ 6166        
+ ....
+ 6240            <span class="hits">312</span>
+ 6241            
+ 6242:           <code class="ruby">      @scope = (input.instance_of?(Redistat::Scope)) ? input : Scope.new(input)</code>
+ 6243          </li>
+ 6244        
+ ....
+ 6270            <span class="hits">310</span>
+ 6271            
+ 6272:           <code class="ruby">      @label = (input.instance_of?(Redistat::Label)) ? input : Label.create(input, @options)</code>
+ 6273          </li>
+ 6274        
+ ....
+ 6366            <span class="hits">19</span>
+ 6367            
+ 6368:           <code class="ruby">        self.class.new(self.scope, child_label.join(Redistat.group_separator), self.date, @options)</code>
+ 6369          </li>
+ 6370        
+ ....
+ 6525          <div class="source_table" id="f084e7730511c8254398e9d8898036f80110b94b">
+ 6526    <div class="header">
+ 6527:     <h3>lib/redisrank/label.rb</h3>
+ 6528      <h4><span class="green">100.0 %</span> covered</h4>
+ 6529      <div>
+ ....
+ 6540            <span class="hits">1</span>
+ 6541            
+ 6542:           <code class="ruby">module Redistat</code>
+ 6543          </li>
+ 6544        
+ ....
+ 6630            <span class="hits">28</span>
+ 6631            
+ 6632:           <code class="ruby">      self.new(args.reject {|i| i.blank? }.join(Redistat.group_separator))</code>
+ 6633          </li>
+ 6634        
+ ....
+ 6840            <span class="hits">109</span>
+ 6841            
+ 6842:           <code class="ruby">      self.to_s.split(Redistat.group_separator).last</code>
+ 6843          </li>
+ 6844        
+ ....
+ 6882            <span class="hits">266</span>
+ 6883            
+ 6884:           <code class="ruby">      self.to_s.split(Redistat.group_separator).each do |part|</code>
+ 6885          </li>
+ 6886        
+ ....
+ 6894            <span class="hits">324</span>
+ 6895            
+ 6896:           <code class="ruby">          group = ((parent.blank?) ? &quot;&quot; : &quot;#{parent}#{Redistat.group_separator}&quot;) + part</code>
+ 6897          </li>
+ 6898        
+ ....
+ 6957          <div class="source_table" id="14bf81df729f5b64ae04d4cc23dcaf066ff47460">
+ 6958    <div class="header">
+ 6959:     <h3>lib/redisrank/mixins/database.rb</h3>
+ 6960      <h4><span class="green">100.0 %</span> covered</h4>
+ 6961      <div>
+ ....
+ 6972            <span class="hits">1</span>
+ 6973            
+ 6974:           <code class="ruby">module Redistat</code>
+ 6975          </li>
+ 6976        
+ ....
+ 7014            <span class="hits">1667</span>
+ 7015            
+ 7016:           <code class="ruby">      Redistat.connection(ref)</code>
+ 7017          </li>
+ 7018        
+ ....
+ 7041          <div class="source_table" id="26682b6e33149c5227ac95e96a64009cc562842c">
+ 7042    <div class="header">
+ 7043:     <h3>lib/redisrank/mixins/date_helper.rb</h3>
+ 7044      <h4><span class="green">100.0 %</span> covered</h4>
+ 7045      <div>
+ ....
+ 7056            <span class="hits">1</span>
+ 7057            
+ 7058:           <code class="ruby">module Redistat</code>
+ 7059          </li>
+ 7060        
+ ....
+ 7068            <span class="hits">1</span>
+ 7069            
+ 7070:           <code class="ruby">    def to_redisrank(depth = nil)</code>
+ 7071          </li>
+ 7072        
+ ....
+ 7074            <span class="hits">544</span>
+ 7075            
+ 7076:           <code class="ruby">      Redistat::Date.new(self, depth)</code>
+ 7077          </li>
+ 7078        
+ ....
+ 7086            <span class="hits">1</span>
+ 7087            
+ 7088:           <code class="ruby">    alias :to_rs :to_redisrank</code>
+ 7089          </li>
+ 7090        
+ ....
+ 7107          <div class="source_table" id="e3ee422da87b12823b5844f03ab6331ad5dca1b6">
+ 7108    <div class="header">
+ 7109:     <h3>lib/redisrank/mixins/options.rb</h3>
+ 7110      <h4><span class="green">95.24 %</span> covered</h4>
+ 7111      <div>
+ ....
+ 7122            <span class="hits">1</span>
+ 7123            
+ 7124:           <code class="ruby">module Redistat</code>
+ 7125          </li>
+ 7126        
+ ....
+ 7371          <div class="source_table" id="fa2133f6ba899094454baa3bb930b76407532812">
+ 7372    <div class="header">
+ 7373:     <h3>lib/redisrank/mixins/synchronize.rb</h3>
+ 7374      <h4><span class="green">100.0 %</span> covered</h4>
+ 7375      <div>
+ ....
+ 7398            <span class="hits">1</span>
+ 7399            
+ 7400:           <code class="ruby">module Redistat</code>
+ 7401          </li>
+ 7402        
+ ....
+ 7701          <div class="source_table" id="1fdcf8497be392cb64905957375de3cc3e0d7ccb">
+ 7702    <div class="header">
+ 7703:     <h3>lib/redisrank/model.rb</h3>
+ 7704      <h4><span class="green">100.0 %</span> covered</h4>
+ 7705      <div>
+ ....
+ 7716            <span class="hits">1</span>
+ 7717            
+ 7718:           <code class="ruby">module Redistat</code>
+ 7719          </li>
+ 7720        
+ ....
+ 8181          <div class="source_table" id="4b19da367c091d280cf1621d5e4bfdd2c90e04e9">
+ 8182    <div class="header">
+ 8183:     <h3>lib/redisrank/result.rb</h3>
+ 8184      <h4><span class="green">100.0 %</span> covered</h4>
+ 8185      <div>
+ ....
+ 8208            <span class="hits">1</span>
+ 8209            
+ 8210:           <code class="ruby">module Redistat</code>
+ 8211          </li>
+ 8212        
+ ....
+ 8307          <div class="source_table" id="51418f37251ac0c95c6a3b8eecc5c7f4a4fa91a7">
+ 8308    <div class="header">
+ 8309:     <h3>lib/redisrank/scope.rb</h3>
+ 8310      <h4><span class="green">100.0 %</span> covered</h4>
+ 8311      <div>
+ ....
+ 8322            <span class="hits">1</span>
+ 8323            
+ 8324:           <code class="ruby">module Redistat</code>
+ 8325          </li>
+ 8326        
+ ....
+ 8433          <div class="source_table" id="a2ff63e1a8c4e9c28925432188451353d3cbf689">
+ 8434    <div class="header">
+ 8435:     <h3>lib/redisrank/summary.rb</h3>
+ 8436      <h4><span class="green">100.0 %</span> covered</h4>
+ 8437      <div>
+ ....
+ 8448            <span class="hits">1</span>
+ 8449            
+ 8450:           <code class="ruby">module Redistat</code>
+ 8451          </li>
+ 8452        
+ ....
+ 8544            <span class="hits">105</span>
+ 8545            
+ 8546:           <code class="ruby">        Redistat.buffer</code>
+ 8547          </li>
+ 8548        
+ ....
+ 8862            <span class="hits">151</span>
+ 8863            
+ 8864:           <code class="ruby">          parts = key.to_s.split(Redistat.group_separator)</code>
+ 8865          </li>
+ 8866        
+ ....
+ 8898            <span class="hits">12</span>
+ 8899            
+ 8900:           <code class="ruby">              sum_key = sum_parts.join(Redistat.group_separator)</code>
+ 8901          </li>
+ 8902        
+
+/Users/felipeclopes/projects/redisrank/Gemfile:
+    1  source 'http://rubygems.org/'
+    2  
+    3: # Specify your gem's dependencies in redisrank.gemspec
+    4  gemspec
+    5  
+
+/Users/felipeclopes/projects/redisrank/Gemfile.lock:
+    2    remote: .
+    3    specs:
+    4:     redisrank (0.5.0)
+    5        activesupport (>= 2.3.6)
+    6        json (>= 1.4.0)
+    .
+   55  DEPENDENCIES
+   56    rake (>= 0.8.7)
+   57:   redisrank!
+   58    rspec (>= 2.1.0)
+   59    simplecov (>= 0.6.1)
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank.rb:
+   17  require 'json'
+   18  
+   19: require 'redisrank/mixins/options'
+   20: require 'redisrank/mixins/synchronize'
+   21: require 'redisrank/mixins/database'
+   22: require 'redisrank/mixins/date_helper'
+   23  
+   24: require 'redisrank/connection'
+   25: require 'redisrank/buffer'
+   26: require 'redisrank/collection'
+   27: require 'redisrank/date'
+   28: require 'redisrank/event'
+   29: require 'redisrank/finder'
+   30: require 'redisrank/key'
+   31: require 'redisrank/label'
+   32: require 'redisrank/model'
+   33: require 'redisrank/result'
+   34: require 'redisrank/scope'
+   35: require 'redisrank/summary'
+   36: require 'redisrank/version'
+   37  
+   38: require 'redisrank/core_ext'
+   39  
+   40  
+   41: module Redistat
+   42  
+   43    KEY_NEXT_ID = ".next_id"
+   44    KEY_EVENT = ".event:"
+   45:   KEY_LABELS = "Redistat.labels:" # used for reverse label hash lookup
+   46    KEY_EVENT_IDS = ".event_ids"
+   47    LABEL_INDEX = ".label_index:"
+   ..
+   88  
+   89      def flush
+   90:       puts "WARNING: Redistat.flush is deprecated. Use Redistat.redis.flushdb instead."
+   91        connection.flushdb
+   92      end
+   ..
+  103  # ensure buffer is flushed on program exit
+  104  Kernel.at_exit do
+  105:   Redistat.buffer.flush(true)
+  106  end
+  107  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/buffer.rb:
+    1: require 'redisrank/core_ext/hash'
+    2  
+    3: module Redistat
+    4    class Buffer
+    5      include Synchronize
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/collection.rb:
+    1: module Redistat
+    2    class Collection < ::Array
+    3  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/connection.rb:
+    1  require 'monitor'
+    2  
+    3: module Redistat
+    4    module Connection
+    5  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext.rb:
+    1: require 'redisrank/core_ext/bignum'
+    2: require 'redisrank/core_ext/date'
+    3: require 'redisrank/core_ext/fixnum'
+    4: require 'redisrank/core_ext/hash'
+    5: require 'redisrank/core_ext/time'
+    6  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext/bignum.rb:
+    1  class Bignum
+    2:   include Redistat::DateHelper
+    3  
+    4    def to_time
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext/date.rb:
+    1  class Date
+    2:   include Redistat::DateHelper
+    3  
+    4    def to_time
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext/fixnum.rb:
+    1  class Fixnum
+    2:   include Redistat::DateHelper
+    3  
+    4    def to_time
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext/time.rb:
+    1  class Time
+    2:   include Redistat::DateHelper
+    3  end
+    4  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/date.rb:
+    1: module Redistat
+    2    class Date
+    3  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/event.rb:
+    1: module Redistat
+    2    class Event
+    3      include Database
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/finder.rb:
+    1: require 'redisrank/finder/date_set'
+    2  
+    3: module Redistat
+    4    class Finder
+    5      include Database
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/finder/date_set.rb:
+    1: module Redistat
+    2    class Finder
+    3      class DateSet < Array
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/key.rb:
+    1: module Redistat
+    2    class Key
+    3      include Database
+    .
+   23  
+   24      def date=(input)
+   25:       @date = (input.instance_of?(Redistat::Date)) ? input : Date.new(input) # Redistat::Date, not ::Date
+   26      end
+   27      attr_reader :date
+   ..
+   36  
+   37      def scope=(input)
+   38:       @scope = (input.instance_of?(Redistat::Scope)) ? input : Scope.new(input)
+   39      end
+   40      attr_reader :scope
+   41  
+   42      def label=(input)
+   43:       @label = (input.instance_of?(Redistat::Label)) ? input : Label.create(input, @options)
+   44      end
+   45      attr_reader :label
+   ..
+   57        members.map { |member|
+   58          child_label = [@label, member].reject { |i| i.nil? }
+   59:         self.class.new(self.scope, child_label.join(Redistat.group_separator), self.date, @options)
+   60        }
+   61      end
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/label.rb:
+    1: module Redistat
+    2    class Label
+    3      include Database
+    .
+   14      def self.join(*args)
+   15        args = args.map {|i| i.to_s}
+   16:       self.new(args.reject {|i| i.blank? }.join(Redistat.group_separator))
+   17      end
+   18  
+   ..
+   49  
+   50      def me
+   51:       self.to_s.split(Redistat.group_separator).last
+   52      end
+   53  
+   ..
+   56        @groups = []
+   57        parent = ""
+   58:       self.to_s.split(Redistat.group_separator).each do |part|
+   59          if !part.blank?
+   60:           group = ((parent.blank?) ? "" : "#{parent}#{Redistat.group_separator}") + part
+   61            @groups << Label.new(group)
+   62            parent = group
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/mixins/database.rb:
+    1: module Redistat
+    2    module Database
+    3      def self.included(base)
+    .
+    6      def db(ref = nil)
+    7        ref ||= @options[:connection_ref] if !@options.nil?
+    8:       Redistat.connection(ref)
+    9      end
+   10    end
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/mixins/date_helper.rb:
+    1: module Redistat
+    2    module DateHelper
+    3:     def to_redisrank(depth = nil)
+    4:       Redistat::Date.new(self, depth)
+    5      end
+    6:     alias :to_rs :to_redisrank
+    7    end
+    8  end
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/mixins/options.rb:
+    1: module Redistat
+    2    module Options
+    3  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/mixins/synchronize.rb:
+    1  require 'monitor'
+    2  
+    3: module Redistat
+    4    module Synchronize
+    5  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/model.rb:
+    1: module Redistat
+    2    module Model
+    3      include Database
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/result.rb:
+    1  require 'active_support/core_ext/hash/indifferent_access'
+    2  
+    3: module Redistat
+    4    class Result < HashWithIndifferentAccess
+    5  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/scope.rb:
+    1: module Redistat
+    2    class Scope
+    3      include Database
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/summary.rb:
+    1: module Redistat
+    2    class Summary
+    3      include Database
+    .
+   15  
+   16        def buffer
+   17:         Redistat.buffer
+   18        end
+   19  
+   ..
+   68          summaries = {}
+   69          stats.each do |key, value|
+   70:           parts = key.to_s.split(Redistat.group_separator)
+   71            parts.pop
+   72            if parts.size > 0
+   ..
+   74              parts.each do |part|
+   75                sum_parts << part
+   76:               sum_key = sum_parts.join(Redistat.group_separator)
+   77                (summaries.has_key?(sum_key)) ? summaries[sum_key] += value : summaries[sum_key] = value
+   78              end
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/version.rb:
+    1: module Redistat
+    2    VERSION = "0.5.0"
+    3  end
+
+/Users/felipeclopes/projects/redisrank/Rakefile:
+   63  #
+   64  
+   65: desc "Start an irb console with Redistat pre-loaded."
+   66  task :console do
+   67    exec "irb -r spec/spec_helper"
+
+/Users/felipeclopes/projects/redisrank/README.md:
+    1: # Redistat [![Build Status](https://secure.travis-ci.org/jimeh/redisrank.png)](http://travis-ci.org/jimeh/redisrank)
+    2  
+    3  A Redis-backed statistics storage and querying library written in Ruby.
+    4  
+    5: Redistat was originally created to replace a small hacked together statistics
+    6  collection solution which was MySQL-based. When I started I had a short list
+    7  of requirements:
+    .
+   18  ## Installation
+   19  
+   20:     gem install redisrank
+   21  
+   22  If you are using Ruby 1.8.x, it's recommended you also install the
+   ..
+   28  
+   29  ```ruby
+   30: require 'redisrank'
+   31  
+   32  class ViewStats
+   33:   include Redistat::Model
+   34  end
+   35  
+   36: # if using Redistat in multiple threads set this
+   37  # somewhere in the beginning of the execution stack
+   38: Redistat.thread_safe = true
+   39  ```
+   40  
+   ..
+  118  ```
+  119  
+  120: Fetch list of products known to Redistat:
+  121  
+  122  ```ruby
+  ...
+  136  ### Scope
+  137  
+  138: A type of global-namespace for storing data. When using the `Redistat::Model`
+  139  wrapper, the scope is automatically set to the class name. In the examples
+  140  above, the scope is `ViewStats`. Can be overridden by calling the `#scope`
+  ...
+  151  label called `views/product/44`, the data is stored for the label you specify,
+  152  and also for `views/product` and `views`. You may also configure a different
+  153: group separator using the `Redistat.group_separator=` method. For example:
+  154  
+  155  ```ruby
+  156: Redistat.group_separator = '|'
+  157  ```
+  158  
+  ...
+  164  ### Input Statistics Data
+  165  
+  166: You provide Redistat with the data you want to store using a Ruby Hash. This
+  167  data is then stored in a corresponding Redis hash with identical key/field
+  168  names.
+  ...
+  175  
+  176  Define how accurately data should be stored, and how accurately it's looked up
+  177: when fetching it again. By default Redistat uses a depth value of `:hour`,
+  178  which means it's impossible to separate two events which were stored at 10:18
+  179  and 10:23. In Redis they are both stored within a date key of `2011031610`.
+  ...
+  186  When you fetch data, you need to specify a start and an end time. The
+  187  selection behavior can seem a bit weird at first when, but makes sense when
+  188: you understand how Redistat works internally.
+  189  
+  190  For example, if we are using a Depth value of `:hour`, and we trigger a fetch
+  ...
+  197  ### The Finder Object
+  198  
+  199: Calling the `#find` method on a Redistat model class returns a
+  200: `Redistat::Finder` object. The finder is a lazy-loaded gateway to your
+  201  data. Meaning you can create a new finder, and modify instantiated finder's
+  202  label, scope, dates, and more. It does not call Redis and fetch the data until
+  ...
+  222  ```ruby
+  223  class ViewStats
+  224:   include Redistat::Model
+  225  
+  226    depth :sec
+  ...
+  243  ### Storing / Writing
+  244  
+  245: Redistat stores all data into a Redis hash keys. The Redis key name the used
+  246  consists of three parts. The scope, label, and datetime:
+  247  
+  ...
+  296  ### Fetching / Reading
+  297  
+  298: By default when fetching statistics, Redistat will figure out how to do the
+  299  least number of reads from Redis. First it checks how long range you're
+  300  fetching. If whole days, months or years for example fit within the start and
+  ...
+  310  
+  311  The buffer is a new, still semi-beta, feature aimed to reduce the number of
+  312: Redis `hincrby` that Redistat sends. This should only really be useful when
+  313  you're hitting north of 30,000 Redis requests per second, if your Redis server
+  314  has limited resources, or against my recommendation you've opted to use 10,
+  ...
+  318  possible by merging the statistics hashes from all calls and groups them based
+  319  on scope, label, date depth, and more. You configure the the buffer by setting
+  320: `Redistat.buffer_size` to an integer higher than 1. This basically tells
+  321: Redistat how many `store` calls to buffer in memory before writing all data to
+  322  Redis.
+  323  
+  ...
+  333  
+  334  [Global Personals](http://globalpersonals.co.uk/) deserves a thank
+  335: you. Currently the primary user of Redistat, they've allowed me to spend some
+  336  company time to further develop the project.
+  337  
+
+/Users/felipeclopes/projects/redisrank/redisrank.gemspec:
+    1  # -*- encoding: utf-8 -*-
+    2  $:.push File.expand_path("../lib", __FILE__)
+    3: require "redisrank/version"
+    4  
+    5  Gem::Specification.new do |s|
+    6:   s.name        = "redisrank"
+    7:   s.version     = Redistat::VERSION
+    8    s.platform    = Gem::Platform::RUBY
+    9    s.authors     = ["Jim Myhrberg"]
+   10    s.email       = ["contact@jimeh.me"]
+   11:   s.homepage    = "http://github.com/jimeh/redisrank"
+   12    s.summary     = %q{A Redis-backed statistics storage and querying library written in Ruby.}
+   13    s.description = %q{A Redis-backed statistics storage and querying library written in Ruby.}
+   14  
+   15:   s.rubyforge_project = "redisrank"
+   16  
+   17    s.files         = `git ls-files`.split("\n")
+
+/Users/felipeclopes/projects/redisrank/spec/buffer_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Buffer do
+    4  
+    5    before(:each) do
+    6:     @class  = Redistat::Buffer
+    7:     @buffer = Redistat::Buffer.instance
+    8      @key = double("Key", :to_s => "Scope/label:2011")
+    9      @stats = {:count => 1, :views => 3}
+   ..
+   73      }}
+   74      item = data.first[1]
+   75:     Redistat::Summary.should_receive(:update).with(@key, @stats, @depth_limit, @opts)
+   76      @buffer.send(:flush_data, data)
+   77    end
+
+/Users/felipeclopes/projects/redisrank/spec/collection_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Collection do
+    4  
+    5    it "should initialize properly" do
+    6      options = {:from => "from", :till => "till", :depth => "depth"}
+    7:     result = Redistat::Collection.new(options)
+    8      result.from.should == options[:from]
+    9      result.till.should == options[:till]
+   ..
+   12  
+   13    it "should have a rank property" do
+   14:     col = Redistat::Collection.new()
+   15      col.rank.should == {}
+   16      col.rank = {:foo => "bar"}
+
+/Users/felipeclopes/projects/redisrank/spec/connection_spec.rb:
+    1  require "spec_helper"
+    2: include Redistat
+    3  
+    4: describe Redistat::Connection do
+    5  
+    6    before(:each) do
+    7:     @redis = Redistat.redis
+    8    end
+    9  
+   10    it "should have a valid Redis client instance" do
+   11:     Redistat.redis.should_not be_nil
+   12    end
+   13  
+   ..
+   34    end
+   35  
+   36:   it "should be accessible from Redistat module" do
+   37:     Redistat.redis.should == Connection.get
+   38:     Redistat.redis.should == Redistat.connection
+   39    end
+   40  
+   41    it "should handle multiple connections with refs" do
+   42:     Redistat.redis.client.db.should == 15
+   43:     Redistat.connect(:port => 8379, :db => 14, :ref => "Custom")
+   44:     Redistat.redis.client.db.should == 15
+   45:     Redistat.redis("Custom").client.db.should == 14
+   46    end
+   47  
+   48    it "should be able to overwrite default and custom refs" do
+   49:     Redistat.redis.client.db.should == 15
+   50:     Redistat.connect(:port => 8379, :db => 14)
+   51:     Redistat.redis.client.db.should == 14
+   52  
+   53:     Redistat.redis("Custom").client.db.should == 14
+   54:     Redistat.connect(:port => 8379, :db => 15, :ref => "Custom")
+   55:     Redistat.redis("Custom").client.db.should == 15
+   56  
+   57      # Reset the default connection to the testing server or all hell
+   58      # might brake loose from the rest of the specs
+   59:     Redistat.connect(:port => 8379, :db => 15)
+   60    end
+   61  
+
+/Users/felipeclopes/projects/redisrank/spec/database_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Database do
+    4:   include Redistat::Database
+    5  
+    6    it "should make #db method available when included" do
+    7:     db.should == Redistat.redis
+    8    end
+    9  
+
+/Users/felipeclopes/projects/redisrank/spec/date_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Date do
+    4  
+    5    it "should initialize from Time object" do
+    6      now = Time.now
+    7:     [Redistat::Date.new(now), now.to_rs].each do |rdate|
+    8:       Redistat::Date::DEPTHS.each { |k| rdate.send(k).should == now.send(k) }
+    9      end
+   10    end
+   ..
+   12    it "should initialize from Date object" do
+   13      today = Date.today
+   14:     [Redistat::Date.new(today), today.to_rs].each do |rdate|
+   15        [:year, :month, :day].each { |k| rdate.send(k).should == today.send(k) }
+   16        [:hour, :min, :sec, :usec].each { |k| rdate.send(k).should == 0 }
+   ..
+   21      now = Time.now.to_i
+   22      time = Time.at(now)
+   23:     [Redistat::Date.new(now), now.to_rs].each do |rdate|
+   24        [:year, :month, :day, :hour, :min, :sec].each { |k| rdate.send(k).should == time.send(k) }
+   25      end
+   ..
+   28    it "should initialize from String object" do
+   29      now = Time.now
+   30:     rdate = Redistat::Date.new(now.to_s)
+   31      [:year, :month, :day, :hour, :min, :sec].each { |k| rdate.send(k).should == now.send(k) }
+   32    end
+   33  
+   34:   it "should initialize from Redistat date String" do
+   35      now = Time.now
+   36:     rdate = Redistat::Date.new(now.to_s)
+   37      [:year, :month, :day, :hour, :min, :sec].each { |k|
+   38:       rdate.to_s(k).should == Redistat::Date.new(rdate.to_s(k)).to_s(k)
+   39      }
+   40    end
+   ..
+   42    it "should convert to Time object" do
+   43      now = Time.now
+   44:     rdate = Redistat::Date.new(now)
+   45      rdate.to_time.to_s.should == now.to_s
+   46    end
+   ..
+   48    it "should convert to Date object" do
+   49      today = Date.today
+   50:     rdate = Redistat::Date.new(today)
+   51      rdate.to_date.to_s.should == today.to_s
+   52    end
+   ..
+   54    it "should convert to Fixnum object (UNIX Timestamp)" do
+   55      now = Time.now
+   56:     rdate = Redistat::Date.new(now)
+   57      rdate.to_i.should == now.to_i
+   58    end
+   ..
+   61      today = Date.today
+   62      now = Time.now
+   63:     [[now, Redistat::Date.new(now)], [today, Redistat::Date.new(today)]].each do |current, rdate|
+   64        props = [:year, :month, :day, :hour, :min, :sec, nil]
+   65        if rdate.usec > 0
+   ..
+   82      now = Time.now
+   83  
+   84:     date = Redistat::Date.new(now)
+   85      date.depth.should be_nil
+   86      date.to_s.should == now.to_rs(:sec).to_s
+   87      date.to_s.should == now.to_rs.to_s(:sec)
+   88  
+   89:     date = Redistat::Date.new(now, :hour)
+   90      date.depth.should == :hour
+   91      date.to_s.should == now.to_rs(:hour).to_s
+
+/Users/felipeclopes/projects/redisrank/spec/event_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Event do
+    4:   include Redistat::Database
+    5  
+    6    before(:each) do
+    .
+   13      @options = {:depth => :hour}
+   14      @date = Time.now
+   15:     @event = Redistat::Event.new(@scope, @label, @date, @stats, @options, @meta)
+   16    end
+   17  
+   ..
+   44  
+   45    it "should increment next_id" do
+   46:     event = Redistat::Event.new("VisitorCount", @label, @date, @stats, @options, @meta)
+   47      @event.next_id.should == 1
+   48      event.next_id.should == 1
+   ..
+   52  
+   53    it "should store event properly" do
+   54:     @event = Redistat::Event.new(@scope, @label, @date, @stats, @options.merge({:store_event => true}), @meta)
+   55      expect(@event.new?).to be true
+   56      @event.save
+   57      expect(@event.new?).to be false
+   58      keys = db.keys "*"
+   59:     keys.should include("#{@event.scope}#{Redistat::KEY_EVENT}#{@event.id}")
+   60:     keys.should include("#{@event.scope}#{Redistat::KEY_EVENT_IDS}")
+   61    end
+   62  
+   63    it "should find event by id" do
+   64:     @event = Redistat::Event.new(@scope, @label, @date, @stats, @options.merge({:store_event => true}), @meta).save
+   65:     fetched = Redistat::Event.find(@scope, @event.id)
+   66      @event.scope.to_s.should == fetched.scope.to_s
+   67      @event.label.to_s.should == fetched.label.to_s
+   ..
+   73    it "should store summarized statistics" do
+   74      2.times do |i|
+   75:       @event = Redistat::Event.new(@scope, @label, @date, @stats, @options, @meta).save
+   76:       Redistat::Date::DEPTHS.each do |depth|
+   77          summary = db.zrevrange @event.key.to_s(depth), 0, -1, :with_scores => true
+   78          expect(summary.count).to be > 0
+
+/Users/felipeclopes/projects/redisrank/spec/finder/date_set_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Finder::DateSet do
+    4  
+    5    before(:all) do
+    6:     @finder = Redistat::Finder::DateSet.new
+    7    end
+    8  
+    .
+   10      t_start = Time.utc(2010, 8, 28, 22, 54, 57)
+   11      t_end = Time.utc(2013, 12, 4, 22, 52, 3)
+   12:     result = Redistat::Finder::DateSet.new(t_start, t_end)
+   13      result.should == [
+   14        { :add => ["2010082822", "2010082823"],             :rem => []             },
+   ..
+   26  
+   27      t_end = t_start + 4.hours
+   28:     result = Redistat::Finder::DateSet.new.find_date_sets(t_start, t_end, :hour, true)
+   29      result[0][:add].should == ["2010082818", "2010082819", "2010082820", "2010082821", "2010082822"]
+   30      result[0][:rem].should == []
+   31:     result.should == Redistat::Finder::DateSet.new(t_start, t_end, nil, :hour)
+   32  
+   33      t_end = t_start + 4.days
+   34:     result = Redistat::Finder::DateSet.new.find_date_sets(t_start, t_end, :day, true)
+   35      result[0][:add].should == ["20100828", "20100829", "20100830", "20100831", "20100901"]
+   36      result[0][:rem].should == []
+   37:     result.should == Redistat::Finder::DateSet.new(t_start, t_end, nil, :day)
+   38    end
+   39  
+
+/Users/felipeclopes/projects/redisrank/spec/finder_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Finder do
+    4:   include Redistat::Database
+    5  
+    6    before(:each) do
+    .
+    9      @label = "about_us"
+   10      @date = Time.now
+   11:     @key = Redistat::Key.new(@scope, @label, @date, {:depth => :day})
+   12      @stats = {"user_3" => 3, "user_2" => 2}
+   13      @stats2 = {"user_3" => 6, "user_2" => 2}
+   ..
+   19      options = {:scope => "PageViews", :label => "Label", :from => @two_hours_ago, :till => @one_hour_ago, :depth => :hour, :interval => :hour}
+   20  
+   21:     finder = Redistat::Finder.new
+   22      finder.send(:set_options, options)
+   23:     finder.options[:scope].should be_a(Redistat::Scope)
+   24      finder.options[:scope].to_s.should == options[:scope]
+   25:     finder.options[:label].should be_a(Redistat::Label)
+   26      finder.options[:label].to_s.should == options[:label]
+   27      finder.options.should == options.merge(:scope => finder.options[:scope], :label => finder.options[:label])
+   28  
+   29:     finder = Redistat::Finder.scope("hello")
+   30      finder.options[:scope].to_s.should == "hello"
+   31      finder.scope.to_s.should == "hello"
+   32  
+   33:     finder = Redistat::Finder.label("hello")
+   34      finder.options[:label].to_s.should == "hello"
+   35      finder.label.to_s.should == "hello"
+   36  
+   37:     finder = Redistat::Finder.dates(@two_hours_ago, @one_hour_ago)
+   38      finder.options[:from].should == @two_hours_ago
+   39      finder.options[:till].should == @one_hour_ago
+   40  
+   41:     finder = Redistat::Finder.from(@two_hours_ago)
+   42      finder.options[:from].should == @two_hours_ago
+   43      finder.from.should == @two_hours_ago
+   44  
+   45:     finder = Redistat::Finder.till(@one_hour_ago)
+   46      finder.options[:till].should == @one_hour_ago
+   47      finder.till.should == @one_hour_ago
+   48  
+   49:     finder = Redistat::Finder.depth(:hour)
+   50      finder.options[:depth].should == :hour
+   51      finder.depth.should == :hour
+   52  
+   53:     finder = Redistat::Finder.interval(true)
+   54      expect(finder.options[:interval]).to be true
+   55      expect(finder.interval).to be true
+   56:     finder = Redistat::Finder.interval(false)
+   57      expect(finder.options[:interval]).to be false
+   58      expect(finder.interval).to be false
+   ..
+   62      first_stat, last_stat = create_example_stats
+   63  
+   64:     stats = Redistat::Finder.find({:from => first_stat, :till => last_stat, :scope => @scope, :label => @label, :depth => :hour})
+   65      stats.from.should  == first_stat
+   66      stats.till.should  == last_stat
+   ..
+   73      first_stat, last_stat = create_example_stats
+   74  
+   75:     stats = Redistat::Finder.find(:from => first_stat, :till => last_stat, :scope => @scope, :label => @label, :depth => :hour, :interval => :hour)
+   76      stats.from.should == first_stat
+   77      stats.till.should == last_stat
+   ..
+   90  
+   91    it "should return empty hash when attempting to fetch non-existent results" do
+   92:     stats = Redistat::Finder.find({:from => 3.hours.ago, :till => 2.hours.from_now, :scope => @scope, :label => @label, :depth => :hour})
+   93      stats.rank.should == {}
+   94    end
+   95  
+   96    it "should throw error on invalid options" do
+   97:     lambda { Redistat::Finder.find(:from => 3.hours.ago) }.should raise_error(Redistat::InvalidOptions)
+   98    end
+   99  
+  ...
+  101      before(:each) do
+  102        @options = {:scope => "PageViews", :label => "message/public", :from => @two_hours_ago, :till => @one_hour_ago, :depth => :hour, :interval => :hour}
+  103:       @finder = Redistat::Finder.new(@options)
+  104      end
+  105  
+  106      it "should return parent finder" do
+  107        @finder.instance_variable_get("@parent").should be_nil
+  108:       @finder.parent.should be_a(Redistat::Finder)
+  109        @finder.instance_variable_get("@parent").should_not be_nil
+  110        @finder.parent.options[:label].to_s.should == 'message'
+  ...
+  117  
+  118      it "should find children" do
+  119:       Redistat::Key.new("PageViews", "message/public/die").update_index
+  120:       Redistat::Key.new("PageViews", "message/public/live").update_index
+  121:       Redistat::Key.new("PageViews", "message/public/fester").update_index
+  122:       members = db.smembers("#{@scope}#{Redistat::LABEL_INDEX}message/public") # checking 'message/public'
+  123:       @finder.children.first.should be_a(Redistat::Finder)
+  124        subs = @finder.children.map { |f| f.options[:label].me }
+  125        expect(subs.count).to eq(3)
+  ...
+  135        @first_stat, @last_stat = create_example_stats
+  136  
+  137:       @finder = Redistat::Finder.new
+  138        @finder.from(@first_stat).till(@last_stat).scope(@scope).label(@label).depth(:hour)
+  139  
+  ...
+  192  
+  193    def create_example_stats
+  194:     key = Redistat::Key.new(@scope, @label, (first = Time.parse("2010-05-14 13:43")))
+  195:     Redistat::Summary.send(:update_fields, key, @stats, :hour)
+  196:     key = Redistat::Key.new(@scope, @label, Time.parse("2010-05-14 13:53"))
+  197:     Redistat::Summary.send(:update_fields, key, @stats, :hour)
+  198:     key = Redistat::Key.new(@scope, @label, Time.parse("2010-05-14 14:52"))
+  199:     Redistat::Summary.send(:update_fields, key, @stats, :hour)
+  200:     key = Redistat::Key.new(@scope, @label, (last = Time.parse("2010-05-14 15:02")))
+  201:     Redistat::Summary.send(:update_fields, key, @stats2, :hour)
+  202      [first - 1.hour, last + 1.hour]
+  203    end
+
+/Users/felipeclopes/projects/redisrank/spec/key_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Key do
+    4:   include Redistat::Database
+    5  
+    6    before(:each) do
+    .
+   10      @label_hash = Digest::SHA1.hexdigest(@label)
+   11      @date = Time.now
+   12:     @key = Redistat::Key.new(@scope, @label, @date, {:depth => :hour})
+   13    end
+   14  
+   ..
+   18      @key.label_hash.should == @label_hash
+   19      @key.groups.map { |k| k.instance_variable_get("@label") }.should == @key.instance_variable_get("@label").groups
+   20:     @key.date.should be_instance_of(Redistat::Date)
+   21      @key.date.to_time.to_s.should == @date.to_s
+   22    end
+   ..
+   29        props.pop
+   30      end
+   31:     key = Redistat::Key.new(@scope, nil, @date, {:depth => :hour})
+   32      key.to_s.should == "#{@scope}:#{key.date.to_s(:hour)}"
+   33    end
+   34  
+   35    it "should abide to hashed_label option" do
+   36:     @key = Redistat::Key.new(@scope, @label, @date, {:depth => :hour, :hashed_label => true})
+   37      @key.to_s.should == "#{@scope}/#{@label_hash}:#{@key.date.to_s(:hour)}"
+   38:     @key = Redistat::Key.new(@scope, @label, @date, {:depth => :hour, :hashed_label => false})
+   39      @key.to_s.should == "#{@scope}/#{@label}:#{@key.date.to_s(:hour)}"
+   40    end
+   41  
+   42    it "should have default depth option" do
+   43:     @key = Redistat::Key.new(@scope, @label, @date)
+   44      @key.depth.should == :hour
+   45    end
+   ..
+   69      before(:each) do
+   70        @label = "message/public/offensive"
+   71:       @key = Redistat::Key.new(@scope, @label, @date, {:depth => :hour})
+   72      end
+   73  
+   ..
+   78                   "message" ]
+   79  
+   80:       key = Redistat::Key.new(@scope, label, @date, {:depth => :hour})
+   81  
+   82        key.groups.map { |k| k.label.to_s }.should == result
+   ..
+   84  
+   85      it "should know it's parent" do
+   86:       @key.parent.should be_a(Redistat::Key)
+   87        @key.parent.label.to_s.should == 'message/public'
+   88:       Redistat::Key.new(@scope, 'hello', @date).parent.should be_nil
+   89      end
+   90  
+   91      it "should update label index and return children" do
+   92:       db.smembers("#{@scope}#{Redistat::LABEL_INDEX}#{@key.label.parent}").should == []
+   93        @key.children.count.should be(0)
+   94  
+   95        @key.update_index                                                  # indexing 'message/publish/offensive'
+   96:       Redistat::Key.new("PageViews", "message/public/die").update_index  # indexing 'message/publish/die'
+   97:       Redistat::Key.new("PageViews", "message/public/live").update_index # indexing 'message/publish/live'
+   98  
+   99:       members = db.smembers("#{@scope}#{Redistat::LABEL_INDEX}#{@key.label.parent}") # checking 'message/public'
+  100        members.count.should be(3)
+  101        members.should include('offensive')
+  ...
+  104  
+  105        key = @key.parent
+  106:       key.children.first.should be_a(Redistat::Key)
+  107        key.children.count.should be(3)
+  108        key.children.map { |k| k.label.me }.should == members
+  109  
+  110:       members = db.smembers("#{@scope}#{Redistat::LABEL_INDEX}#{key.label.parent}") # checking 'message'
+  111        members.count.should be(1)
+  112        members.should include('public')
+  ...
+  116        key.children.map { |k| k.label.me }.should == members
+  117  
+  118:       members = db.smembers("#{@scope}#{Redistat::LABEL_INDEX}") # checking ''
+  119        members.count.should be(1)
+  120        members.should include('message')
+  121  
+  122        key.parent.should be_nil
+  123:       key = Redistat::Key.new("PageViews")
+  124        key.children.count.should be(1)
+  125        key.children.map { |k| k.label.me }.should include('message')
+
+/Users/felipeclopes/projects/redisrank/spec/label_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Label do
+    4:   include Redistat::Database
+    5  
+    6    before(:each) do
+    7      db.flushdb
+    8      @name = "about_us"
+    9:     @label = Redistat::Label.new(@name)
+   10    end
+   11  
+   ..
+   16  
+   17    it "should store a label hash lookup key" do
+   18:     label = Redistat::Label.new(@name, {:hashed_label => true}).save
+   19      label.saved?.should be(true)
+   20:     db.hget(Redistat::KEY_LABELS, label.hash).should == @name
+   21  
+   22      name = "contact_us"
+   23:     label = Redistat::Label.create(name, {:hashed_label => true})
+   24      label.saved?.should be(true)
+   25:     db.hget(Redistat::KEY_LABELS, label.hash).should == name
+   26    end
+   27  
+   28    it "should join labels" do
+   29:     include Redistat
+   30:     label = Redistat::Label.join('email', 'message', 'public')
+   31:     label.should be_a(Redistat::Label)
+   32      label.to_s.should == 'email/message/public'
+   33:     label = Redistat::Label.join(Redistat::Label.new('email'), Redistat::Label.new('message'), Redistat::Label.new('public'))
+   34:     label.should be_a(Redistat::Label)
+   35      label.to_s.should == 'email/message/public'
+   36:     label = Redistat::Label.join('email', '', 'message', nil, 'public')
+   37:     label.should be_a(Redistat::Label)
+   38      label.to_s.should == 'email/message/public'
+   39    end
+   40  
+   41    it "should allow you to use a different group separator" do
+   42:     include Redistat
+   43:     Redistat.group_separator = '|'
+   44:     label = Redistat::Label.join('email', 'message', 'public')
+   45:     label.should be_a(Redistat::Label)
+   46      label.to_s.should == 'email|message|public'
+   47:     label = Redistat::Label.join(Redistat::Label.new('email'), Redistat::Label.new('message'), Redistat::Label.new('public'))
+   48:     label.should be_a(Redistat::Label)
+   49      label.to_s.should == 'email|message|public'
+   50:     label = Redistat::Label.join('email', '', 'message', nil, 'public')
+   51:     label.should be_a(Redistat::Label)
+   52      label.to_s.should == 'email|message|public'
+   53:     Redistat.group_separator = Redistat::GROUP_SEPARATOR
+   54    end
+   55  
+   ..
+   57      before(:each) do
+   58        @name = "message/public/offensive"
+   59:       @label = Redistat::Label.new(@name)
+   60      end
+   61  
+   62      it "should know it's parent label group" do
+   63        @label.parent.to_s.should == 'message/public'
+   64:       Redistat::Label.new('hello').parent.should be_nil
+   65      end
+   66  
+   ..
+   72  
+   73        @name = "/message/public/"
+   74:       @label = Redistat::Label.new(@name)
+   75        @label.name.should == @name
+   76        @label.groups.map { |l| l.to_s }.should == [ "message/public",
+   ..
+   78  
+   79        @name = "message"
+   80:       @label = Redistat::Label.new(@name)
+   81        @label.name.should == @name
+   82        @label.groups.map { |l| l.to_s }.should == [ "message" ]
+
+/Users/felipeclopes/projects/redisrank/spec/model_helper.rb:
+    1: require "redisrank"
+    2  
+    3  class ModelHelper1
+    4:   include Redistat::Model
+    5  
+    6  
+    .
+    8  
+    9  class ModelHelper2
+   10:   include Redistat::Model
+   11  
+   12    depth :day
+   ..
+   17  
+   18  class ModelHelper3
+   19:   include Redistat::Model
+   20  
+   21    connect_to :port => 8379, :db => 14
+   ..
+   24  
+   25  class ModelHelper4
+   26:   include Redistat::Model
+   27  
+   28    scope "FancyHelper"
+
+/Users/felipeclopes/projects/redisrank/spec/model_spec.rb:
+    2  require "model_helper"
+    3  
+    4: describe Redistat::Model do
+    5:   include Redistat::Database
+    6  
+    7    before(:each) do
+    .
+   22      one_hour_ago  = 1.hour.ago
+   23      finder = ModelHelper1.find('label', two_hours_ago, one_hour_ago)
+   24:     finder.should be_a(Redistat::Finder)
+   25      finder.options[:scope].to_s.should == 'ModelHelper1'
+   26      finder.options[:label].to_s.should == 'label'
+   ..
+   30  
+   31    it "should #find_event" do
+   32:     Redistat::Event.should_receive(:find).with('ModelHelper1', 1)
+   33      ModelHelper1.find_event(1)
+   34    end
+   ..
+  151    describe "Write Buffer" do
+  152      before(:each) do
+  153:       Redistat.buffer_size = 20
+  154      end
+  155  
+  156      after(:each) do
+  157:       Redistat.buffer_size = 0
+  158      end
+  159  
+  ...
+  181        end
+  182        ModelHelper1.fetch("sheep.black", @time.hours_ago(5), @time.hours_since(1)).rank.should == {}
+  183:       Redistat.buffer.flush(true)
+  184  
+  185        stats = ModelHelper1.fetch("sheep.black", @time.hours_ago(5), @time.hours_since(1))
+
+/Users/felipeclopes/projects/redisrank/spec/options_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Options do
+    4  
+    5    before(:each) do
+    .
+   24  
+   25  class OptionsHelper
+   26:   include Redistat::Options
+   27  
+   28    option_accessor :hello
+
+/Users/felipeclopes/projects/redisrank/spec/result_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Result do
+    4  
+    5    it "should should initialize properly" do
+    6      options = {:from => "from", :till => "till"}
+    7:     result = Redistat::Result.new(options)
+    8      result.from.should == "from"
+    9      result.till.should == "till"
+   ..
+   11  
+   12    it "should have merge_to_max method" do
+   13:     result = Redistat::Result.new
+   14      result[:world].should be_nil
+   15      result.merge_to_max(:world, 3)
+
+/Users/felipeclopes/projects/redisrank/spec/scope_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Scope do
+    4:   include Redistat::Database
+    5  
+    6    before(:all) do
+    .
+   10    before(:each) do
+   11      @name = "PageViews"
+   12:     @scope = Redistat::Scope.new(@name)
+   13    end
+   14  
+   ..
+   18  
+   19    it "should increment next_id" do
+   20:     scope = Redistat::Scope.new("Visitors")
+   21      @scope.next_id.should == 1
+   22      scope.next_id.should == 1
+
+/Users/felipeclopes/projects/redisrank/spec/spec_helper.rb:
+   10  
+   11  # require stuff
+   12: require 'redisrank'
+   13  require 'rspec'
+   14  require 'rspec/autorun'
+   15  
+   16: # use the test Redistat instance
+   17: Redistat.connect(:port => 8379, :db => 15, :thread_safe => true)
+   18: Redistat.redis.flushdb
+   19  
+
+/Users/felipeclopes/projects/redisrank/spec/summary_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Summary do
+    4:   include Redistat::Database
+    5  
+    6    before(:each) do
+    .
+    9      @label = "about_us"
+   10      @date = Time.now
+   11:     @key = Redistat::Key.new(@scope, @label, @date, {:depth => :day})
+   12      @stats = {"views" => 3, "visitors" => 2}
+   13      @expire = {:hour => 24*3600}
+   ..
+   15  
+   16    it "should update a single summary properly" do
+   17:     Redistat::Summary.send(:update_fields, @key, @stats, :hour)
+   18      summary = db.zrevrange(@key.to_s(:hour), 0, -1, :with_scores => true)
+   19      expect(summary.count).to be 2
+   ..
+   25      expect(visitors.last).to be 2.0
+   26  
+   27:     Redistat::Summary.send(:update_fields, @key, @stats, :hour)
+   28      summary = db.zrevrange(@key.to_s(:hour), 0, -1, :with_scores => true)
+   29      expect(summary.count).to be 2
+   ..
+   37  
+   38    it "should set key expiry properly" do
+   39:     Redistat::Summary.update_all(@key, @stats, :hour,{:expire => @expire})
+   40      ((24*3600)-1..(24*3600)+1).should include(db.ttl(@key.to_s(:hour)))
+   41      [:day, :month, :year].each do |depth|
+   ..
+   44  
+   45      db.flushdb
+   46:     Redistat::Summary.update_all(@key, @stats, :hour, {:expire => {}})
+   47      [:hour, :day, :month, :year].each do |depth|
+   48        db.ttl(@key.to_s(depth)).should == -1
+   ..
+   51  
+   52    it "should update all summaries properly" do
+   53:     Redistat::Summary.update_all(@key, @stats, :sec)
+   54      [:year, :month, :day, :hour, :min, :sec, :usec].each do |depth|
+   55        summary = db.zrevrange(@key.to_s(depth), 0, -1, :with_scores => true)
+   ..
+   69  
+   70    it "should update summaries even if no label is set" do
+   71:     key = Redistat::Key.new(@scope, nil, @date, {:depth => :day})
+   72:     Redistat::Summary.send(:update_fields, key, @stats, :hour)
+   73      summary = db.zrevrange(key.to_s(:hour), 0, -1, :with_scores => true)
+   74      views = summary.first 
+   ..
+   84               "death/bomb"  => 4, "death/unicorn" => 3,
+   85               :"od/sugar"   => 7, :"od/meth"      => 8 }
+   86:     res = Redistat::Summary.send(:inject_group_summaries, hash)
+   87      res.should == { "count" => 10, "count/hello" => 3, "count/world"   => 7,
+   88                      "death" => 7,  "death/bomb"  => 4, "death/unicorn" => 3,
+   ..
+   92    it "should properly store key group summaries" do
+   93      stats = {"views" => 3, "visitors/eu" => 2, "visitors/us" => 4}
+   94:     Redistat::Summary.update_all(@key, stats, :hour)
+   95      summary = db.zrevrange(@key.to_s(:hour), 0, -1, :with_scores => true)
+   96      summary.count.should eq(4)
+   ..
+  109    it "should not store key group summaries when option is disabled" do
+  110      stats = {"views" => 3, "visitors/eu" => 2, "visitors/us" => 4}
+  111:     Redistat::Summary.update_all(@key, stats, :hour, {:enable_grouping => false})
+  112      summary = db.zrevrange(@key.to_s(:hour), 0, -1, :with_scores => true)
+  113      summary.count.should eq(3)
+  ...
+  125      stats = {"views" => 3, "visitors/eu" => 2, "visitors/us" => 4}
+  126      label = "views/about_us"
+  127:     key = Redistat::Key.new(@scope, label, @date)
+  128:     Redistat::Summary.update_all(key, stats, :hour)
+  129  
+  130      key.groups[0].label.to_s.should == "views/about_us"
+  ...
+  134  
+  135      label = "views/contact"
+  136:     key = Redistat::Key.new(@scope, label, @date)
+  137:     Redistat::Summary.update_all(key, stats, :hour)
+  138  
+  139      key.groups[0].label.to_s.should == "views/contact"
+
+/Users/felipeclopes/projects/redisrank/spec/synchronize_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: module Redistat
+    4    describe Synchronize do
+    5  
+    .
+   62  
+   63        describe '.monitor' do
+   64:         it 'defers to Redistat::Synchronize' do
+   65            klass.should_receive(:monitor).once
+   66            subject.monitor
+   ..
+   69  
+   70        describe '.thread_safe' do
+   71:         it ' defers to Redistat::Synchronize' do
+   72            klass.should_receive(:thread_safe).once
+   73            subject.thread_safe
+   ..
+   76  
+   77        describe '.thread_safe=' do
+   78:         it 'defers to Redistat::Synchronize' do
+   79            klass.should_receive(:thread_safe=).once.with(true)
+   80            subject.thread_safe = true
+   ..
+  119  
+  120    end # Synchronize
+  121: end # Redistat
+  122  
+  123  class SynchronizeSpecHelper
+  124:   include Redistat::Synchronize
+  125  end
+  126  
+
+/Users/felipeclopes/projects/redisrank/spec/thread_safety_spec.rb:
+    2  
+    3  describe "Thread-Safety" do
+    4:   include Redistat::Database
+    5  
+    6    before(:each) do
+    .
+   23    it "should store event in multiple threads" do
+   24      class ThreadSafetySpec
+   25:       include Redistat::Model
+   26      end
+   27      threads = []
+
+467 matches across 50 files
+
+
+Searching 85 files for "Redistat" (case sensitive)
+
+/Users/felipeclopes/projects/redisrank/coverage/index.html:
+  564            <span class="hits">1</span>
+  565            
+  566:           <code class="ruby">module Redistat</code>
+  567          </li>
+  568        
+  ...
+  588            <span class="hits">1</span>
+  589            
+  590:           <code class="ruby">  KEY_LABELS = &quot;Redistat.labels:&quot; # used for reverse label hash lookup</code>
+  591          </li>
+  592        
+  ...
+  858            
+  859            
+  860:           <code class="ruby">      puts &quot;WARNING: Redistat.flush is deprecated. Use Redistat.redis.flushdb instead.&quot;</code>
+  861          </li>
+  862        
+  ...
+  948            <span class="hits">1</span>
+  949            
+  950:           <code class="ruby">  Redistat.buffer.flush(true)</code>
+  951          </li>
+  952        
+  ...
+  990            <span class="hits">1</span>
+  991            
+  992:           <code class="ruby">module Redistat</code>
+  993          </li>
+  994        
+  ...
+ 1656            <span class="hits">1</span>
+ 1657            
+ 1658:           <code class="ruby">module Redistat</code>
+ 1659          </li>
+ 1660        
+ ....
+ 1806            <span class="hits">1</span>
+ 1807            
+ 1808:           <code class="ruby">module Redistat</code>
+ 1809          </li>
+ 1810        
+ ....
+ 2400            <span class="hits">1</span>
+ 2401            
+ 2402:           <code class="ruby">  include Redistat::DateHelper</code>
+ 2403          </li>
+ 2404        
+ ....
+ 2466            <span class="hits">1</span>
+ 2467            
+ 2468:           <code class="ruby">  include Redistat::DateHelper</code>
+ 2469          </li>
+ 2470        
+ ....
+ 2532            <span class="hits">1</span>
+ 2533            
+ 2534:           <code class="ruby">  include Redistat::DateHelper</code>
+ 2535          </li>
+ 2536        
+ ....
+ 2736            <span class="hits">1</span>
+ 2737            
+ 2738:           <code class="ruby">  include Redistat::DateHelper</code>
+ 2739          </li>
+ 2740        
+ ....
+ 2766            <span class="hits">1</span>
+ 2767            
+ 2768:           <code class="ruby">module Redistat</code>
+ 2769          </li>
+ 2770        
+ ....
+ 3312            <span class="hits">1</span>
+ 3313            
+ 3314:           <code class="ruby">module Redistat</code>
+ 3315          </li>
+ 3316        
+ ....
+ 3930            <span class="hits">1</span>
+ 3931            
+ 3932:           <code class="ruby">module Redistat</code>
+ 3933          </li>
+ 3934        
+ ....
+ 5406            <span class="hits">1</span>
+ 5407            
+ 5408:           <code class="ruby">module Redistat</code>
+ 5409          </li>
+ 5410        
+ ....
+ 6018            <span class="hits">1</span>
+ 6019            
+ 6020:           <code class="ruby">module Redistat</code>
+ 6021          </li>
+ 6022        
+ ....
+ 6162            <span class="hits">313</span>
+ 6163            
+ 6164:           <code class="ruby">      @date = (input.instance_of?(Redistat::Date)) ? input : Date.new(input) # Redistat::Date, not ::Date</code>
+ 6165          </li>
+ 6166        
+ ....
+ 6240            <span class="hits">312</span>
+ 6241            
+ 6242:           <code class="ruby">      @scope = (input.instance_of?(Redistat::Scope)) ? input : Scope.new(input)</code>
+ 6243          </li>
+ 6244        
+ ....
+ 6270            <span class="hits">310</span>
+ 6271            
+ 6272:           <code class="ruby">      @label = (input.instance_of?(Redistat::Label)) ? input : Label.create(input, @options)</code>
+ 6273          </li>
+ 6274        
+ ....
+ 6366            <span class="hits">19</span>
+ 6367            
+ 6368:           <code class="ruby">        self.class.new(self.scope, child_label.join(Redistat.group_separator), self.date, @options)</code>
+ 6369          </li>
+ 6370        
+ ....
+ 6540            <span class="hits">1</span>
+ 6541            
+ 6542:           <code class="ruby">module Redistat</code>
+ 6543          </li>
+ 6544        
+ ....
+ 6630            <span class="hits">28</span>
+ 6631            
+ 6632:           <code class="ruby">      self.new(args.reject {|i| i.blank? }.join(Redistat.group_separator))</code>
+ 6633          </li>
+ 6634        
+ ....
+ 6840            <span class="hits">109</span>
+ 6841            
+ 6842:           <code class="ruby">      self.to_s.split(Redistat.group_separator).last</code>
+ 6843          </li>
+ 6844        
+ ....
+ 6882            <span class="hits">266</span>
+ 6883            
+ 6884:           <code class="ruby">      self.to_s.split(Redistat.group_separator).each do |part|</code>
+ 6885          </li>
+ 6886        
+ ....
+ 6894            <span class="hits">324</span>
+ 6895            
+ 6896:           <code class="ruby">          group = ((parent.blank?) ? &quot;&quot; : &quot;#{parent}#{Redistat.group_separator}&quot;) + part</code>
+ 6897          </li>
+ 6898        
+ ....
+ 6972            <span class="hits">1</span>
+ 6973            
+ 6974:           <code class="ruby">module Redistat</code>
+ 6975          </li>
+ 6976        
+ ....
+ 7014            <span class="hits">1667</span>
+ 7015            
+ 7016:           <code class="ruby">      Redistat.connection(ref)</code>
+ 7017          </li>
+ 7018        
+ ....
+ 7056            <span class="hits">1</span>
+ 7057            
+ 7058:           <code class="ruby">module Redistat</code>
+ 7059          </li>
+ 7060        
+ ....
+ 7074            <span class="hits">544</span>
+ 7075            
+ 7076:           <code class="ruby">      Redistat::Date.new(self, depth)</code>
+ 7077          </li>
+ 7078        
+ ....
+ 7122            <span class="hits">1</span>
+ 7123            
+ 7124:           <code class="ruby">module Redistat</code>
+ 7125          </li>
+ 7126        
+ ....
+ 7398            <span class="hits">1</span>
+ 7399            
+ 7400:           <code class="ruby">module Redistat</code>
+ 7401          </li>
+ 7402        
+ ....
+ 7716            <span class="hits">1</span>
+ 7717            
+ 7718:           <code class="ruby">module Redistat</code>
+ 7719          </li>
+ 7720        
+ ....
+ 8208            <span class="hits">1</span>
+ 8209            
+ 8210:           <code class="ruby">module Redistat</code>
+ 8211          </li>
+ 8212        
+ ....
+ 8322            <span class="hits">1</span>
+ 8323            
+ 8324:           <code class="ruby">module Redistat</code>
+ 8325          </li>
+ 8326        
+ ....
+ 8448            <span class="hits">1</span>
+ 8449            
+ 8450:           <code class="ruby">module Redistat</code>
+ 8451          </li>
+ 8452        
+ ....
+ 8544            <span class="hits">105</span>
+ 8545            
+ 8546:           <code class="ruby">        Redistat.buffer</code>
+ 8547          </li>
+ 8548        
+ ....
+ 8862            <span class="hits">151</span>
+ 8863            
+ 8864:           <code class="ruby">          parts = key.to_s.split(Redistat.group_separator)</code>
+ 8865          </li>
+ 8866        
+ ....
+ 8898            <span class="hits">12</span>
+ 8899            
+ 8900:           <code class="ruby">              sum_key = sum_parts.join(Redistat.group_separator)</code>
+ 8901          </li>
+ 8902        
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank.rb:
+   39  
+   40  
+   41: module Redistat
+   42  
+   43    KEY_NEXT_ID = ".next_id"
+   44    KEY_EVENT = ".event:"
+   45:   KEY_LABELS = "Redistat.labels:" # used for reverse label hash lookup
+   46    KEY_EVENT_IDS = ".event_ids"
+   47    LABEL_INDEX = ".label_index:"
+   ..
+   88  
+   89      def flush
+   90:       puts "WARNING: Redistat.flush is deprecated. Use Redistat.redis.flushdb instead."
+   91        connection.flushdb
+   92      end
+   ..
+  103  # ensure buffer is flushed on program exit
+  104  Kernel.at_exit do
+  105:   Redistat.buffer.flush(true)
+  106  end
+  107  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/buffer.rb:
+    1  require 'redisrank/core_ext/hash'
+    2  
+    3: module Redistat
+    4    class Buffer
+    5      include Synchronize
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/collection.rb:
+    1: module Redistat
+    2    class Collection < ::Array
+    3  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/connection.rb:
+    1  require 'monitor'
+    2  
+    3: module Redistat
+    4    module Connection
+    5  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext/bignum.rb:
+    1  class Bignum
+    2:   include Redistat::DateHelper
+    3  
+    4    def to_time
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext/date.rb:
+    1  class Date
+    2:   include Redistat::DateHelper
+    3  
+    4    def to_time
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext/fixnum.rb:
+    1  class Fixnum
+    2:   include Redistat::DateHelper
+    3  
+    4    def to_time
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/core_ext/time.rb:
+    1  class Time
+    2:   include Redistat::DateHelper
+    3  end
+    4  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/date.rb:
+    1: module Redistat
+    2    class Date
+    3  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/event.rb:
+    1: module Redistat
+    2    class Event
+    3      include Database
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/finder.rb:
+    1  require 'redisrank/finder/date_set'
+    2  
+    3: module Redistat
+    4    class Finder
+    5      include Database
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/finder/date_set.rb:
+    1: module Redistat
+    2    class Finder
+    3      class DateSet < Array
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/key.rb:
+    1: module Redistat
+    2    class Key
+    3      include Database
+    .
+   23  
+   24      def date=(input)
+   25:       @date = (input.instance_of?(Redistat::Date)) ? input : Date.new(input) # Redistat::Date, not ::Date
+   26      end
+   27      attr_reader :date
+   ..
+   36  
+   37      def scope=(input)
+   38:       @scope = (input.instance_of?(Redistat::Scope)) ? input : Scope.new(input)
+   39      end
+   40      attr_reader :scope
+   41  
+   42      def label=(input)
+   43:       @label = (input.instance_of?(Redistat::Label)) ? input : Label.create(input, @options)
+   44      end
+   45      attr_reader :label
+   ..
+   57        members.map { |member|
+   58          child_label = [@label, member].reject { |i| i.nil? }
+   59:         self.class.new(self.scope, child_label.join(Redistat.group_separator), self.date, @options)
+   60        }
+   61      end
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/label.rb:
+    1: module Redistat
+    2    class Label
+    3      include Database
+    .
+   14      def self.join(*args)
+   15        args = args.map {|i| i.to_s}
+   16:       self.new(args.reject {|i| i.blank? }.join(Redistat.group_separator))
+   17      end
+   18  
+   ..
+   49  
+   50      def me
+   51:       self.to_s.split(Redistat.group_separator).last
+   52      end
+   53  
+   ..
+   56        @groups = []
+   57        parent = ""
+   58:       self.to_s.split(Redistat.group_separator).each do |part|
+   59          if !part.blank?
+   60:           group = ((parent.blank?) ? "" : "#{parent}#{Redistat.group_separator}") + part
+   61            @groups << Label.new(group)
+   62            parent = group
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/mixins/database.rb:
+    1: module Redistat
+    2    module Database
+    3      def self.included(base)
+    .
+    6      def db(ref = nil)
+    7        ref ||= @options[:connection_ref] if !@options.nil?
+    8:       Redistat.connection(ref)
+    9      end
+   10    end
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/mixins/date_helper.rb:
+    1: module Redistat
+    2    module DateHelper
+    3      def to_redisrank(depth = nil)
+    4:       Redistat::Date.new(self, depth)
+    5      end
+    6      alias :to_rs :to_redisrank
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/mixins/options.rb:
+    1: module Redistat
+    2    module Options
+    3  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/mixins/synchronize.rb:
+    1  require 'monitor'
+    2  
+    3: module Redistat
+    4    module Synchronize
+    5  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/model.rb:
+    1: module Redistat
+    2    module Model
+    3      include Database
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/result.rb:
+    1  require 'active_support/core_ext/hash/indifferent_access'
+    2  
+    3: module Redistat
+    4    class Result < HashWithIndifferentAccess
+    5  
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/scope.rb:
+    1: module Redistat
+    2    class Scope
+    3      include Database
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/summary.rb:
+    1: module Redistat
+    2    class Summary
+    3      include Database
+    .
+   15  
+   16        def buffer
+   17:         Redistat.buffer
+   18        end
+   19  
+   ..
+   68          summaries = {}
+   69          stats.each do |key, value|
+   70:           parts = key.to_s.split(Redistat.group_separator)
+   71            parts.pop
+   72            if parts.size > 0
+   ..
+   74              parts.each do |part|
+   75                sum_parts << part
+   76:               sum_key = sum_parts.join(Redistat.group_separator)
+   77                (summaries.has_key?(sum_key)) ? summaries[sum_key] += value : summaries[sum_key] = value
+   78              end
+
+/Users/felipeclopes/projects/redisrank/lib/redisrank/version.rb:
+    1: module Redistat
+    2    VERSION = "0.5.0"
+    3  end
+
+/Users/felipeclopes/projects/redisrank/Rakefile:
+   63  #
+   64  
+   65: desc "Start an irb console with Redistat pre-loaded."
+   66  task :console do
+   67    exec "irb -r spec/spec_helper"
+
+/Users/felipeclopes/projects/redisrank/README.md:
+    1: # Redistat [![Build Status](https://secure.travis-ci.org/jimeh/redisrank.png)](http://travis-ci.org/jimeh/redisrank)
+    2  
+    3  A Redis-backed statistics storage and querying library written in Ruby.
+    4  
+    5: Redistat was originally created to replace a small hacked together statistics
+    6  collection solution which was MySQL-based. When I started I had a short list
+    7  of requirements:
+    .
+   31  
+   32  class ViewStats
+   33:   include Redistat::Model
+   34  end
+   35  
+   36: # if using Redistat in multiple threads set this
+   37  # somewhere in the beginning of the execution stack
+   38: Redistat.thread_safe = true
+   39  ```
+   40  
+   ..
+  118  ```
+  119  
+  120: Fetch list of products known to Redistat:
+  121  
+  122  ```ruby
+  ...
+  136  ### Scope
+  137  
+  138: A type of global-namespace for storing data. When using the `Redistat::Model`
+  139  wrapper, the scope is automatically set to the class name. In the examples
+  140  above, the scope is `ViewStats`. Can be overridden by calling the `#scope`
+  ...
+  151  label called `views/product/44`, the data is stored for the label you specify,
+  152  and also for `views/product` and `views`. You may also configure a different
+  153: group separator using the `Redistat.group_separator=` method. For example:
+  154  
+  155  ```ruby
+  156: Redistat.group_separator = '|'
+  157  ```
+  158  
+  ...
+  164  ### Input Statistics Data
+  165  
+  166: You provide Redistat with the data you want to store using a Ruby Hash. This
+  167  data is then stored in a corresponding Redis hash with identical key/field
+  168  names.
+  ...
+  175  
+  176  Define how accurately data should be stored, and how accurately it's looked up
+  177: when fetching it again. By default Redistat uses a depth value of `:hour`,
+  178  which means it's impossible to separate two events which were stored at 10:18
+  179  and 10:23. In Redis they are both stored within a date key of `2011031610`.
+  ...
+  186  When you fetch data, you need to specify a start and an end time. The
+  187  selection behavior can seem a bit weird at first when, but makes sense when
+  188: you understand how Redistat works internally.
+  189  
+  190  For example, if we are using a Depth value of `:hour`, and we trigger a fetch
+  ...
+  197  ### The Finder Object
+  198  
+  199: Calling the `#find` method on a Redistat model class returns a
+  200: `Redistat::Finder` object. The finder is a lazy-loaded gateway to your
+  201  data. Meaning you can create a new finder, and modify instantiated finder's
+  202  label, scope, dates, and more. It does not call Redis and fetch the data until
+  ...
+  222  ```ruby
+  223  class ViewStats
+  224:   include Redistat::Model
+  225  
+  226    depth :sec
+  ...
+  243  ### Storing / Writing
+  244  
+  245: Redistat stores all data into a Redis hash keys. The Redis key name the used
+  246  consists of three parts. The scope, label, and datetime:
+  247  
+  ...
+  296  ### Fetching / Reading
+  297  
+  298: By default when fetching statistics, Redistat will figure out how to do the
+  299  least number of reads from Redis. First it checks how long range you're
+  300  fetching. If whole days, months or years for example fit within the start and
+  ...
+  310  
+  311  The buffer is a new, still semi-beta, feature aimed to reduce the number of
+  312: Redis `hincrby` that Redistat sends. This should only really be useful when
+  313  you're hitting north of 30,000 Redis requests per second, if your Redis server
+  314  has limited resources, or against my recommendation you've opted to use 10,
+  ...
+  318  possible by merging the statistics hashes from all calls and groups them based
+  319  on scope, label, date depth, and more. You configure the the buffer by setting
+  320: `Redistat.buffer_size` to an integer higher than 1. This basically tells
+  321: Redistat how many `store` calls to buffer in memory before writing all data to
+  322  Redis.
+  323  
+  ...
+  333  
+  334  [Global Personals](http://globalpersonals.co.uk/) deserves a thank
+  335: you. Currently the primary user of Redistat, they've allowed me to spend some
+  336  company time to further develop the project.
+  337  
+
+/Users/felipeclopes/projects/redisrank/redisrank.gemspec:
+    5  Gem::Specification.new do |s|
+    6    s.name        = "redisrank"
+    7:   s.version     = Redistat::VERSION
+    8    s.platform    = Gem::Platform::RUBY
+    9    s.authors     = ["Jim Myhrberg"]
+
+/Users/felipeclopes/projects/redisrank/spec/buffer_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Buffer do
+    4  
+    5    before(:each) do
+    6:     @class  = Redistat::Buffer
+    7:     @buffer = Redistat::Buffer.instance
+    8      @key = double("Key", :to_s => "Scope/label:2011")
+    9      @stats = {:count => 1, :views => 3}
+   ..
+   73      }}
+   74      item = data.first[1]
+   75:     Redistat::Summary.should_receive(:update).with(@key, @stats, @depth_limit, @opts)
+   76      @buffer.send(:flush_data, data)
+   77    end
+
+/Users/felipeclopes/projects/redisrank/spec/collection_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Collection do
+    4  
+    5    it "should initialize properly" do
+    6      options = {:from => "from", :till => "till", :depth => "depth"}
+    7:     result = Redistat::Collection.new(options)
+    8      result.from.should == options[:from]
+    9      result.till.should == options[:till]
+   ..
+   12  
+   13    it "should have a rank property" do
+   14:     col = Redistat::Collection.new()
+   15      col.rank.should == {}
+   16      col.rank = {:foo => "bar"}
+
+/Users/felipeclopes/projects/redisrank/spec/connection_spec.rb:
+    1  require "spec_helper"
+    2: include Redistat
+    3  
+    4: describe Redistat::Connection do
+    5  
+    6    before(:each) do
+    7:     @redis = Redistat.redis
+    8    end
+    9  
+   10    it "should have a valid Redis client instance" do
+   11:     Redistat.redis.should_not be_nil
+   12    end
+   13  
+   ..
+   34    end
+   35  
+   36:   it "should be accessible from Redistat module" do
+   37:     Redistat.redis.should == Connection.get
+   38:     Redistat.redis.should == Redistat.connection
+   39    end
+   40  
+   41    it "should handle multiple connections with refs" do
+   42:     Redistat.redis.client.db.should == 15
+   43:     Redistat.connect(:port => 8379, :db => 14, :ref => "Custom")
+   44:     Redistat.redis.client.db.should == 15
+   45:     Redistat.redis("Custom").client.db.should == 14
+   46    end
+   47  
+   48    it "should be able to overwrite default and custom refs" do
+   49:     Redistat.redis.client.db.should == 15
+   50:     Redistat.connect(:port => 8379, :db => 14)
+   51:     Redistat.redis.client.db.should == 14
+   52  
+   53:     Redistat.redis("Custom").client.db.should == 14
+   54:     Redistat.connect(:port => 8379, :db => 15, :ref => "Custom")
+   55:     Redistat.redis("Custom").client.db.should == 15
+   56  
+   57      # Reset the default connection to the testing server or all hell
+   58      # might brake loose from the rest of the specs
+   59:     Redistat.connect(:port => 8379, :db => 15)
+   60    end
+   61  
+
+/Users/felipeclopes/projects/redisrank/spec/database_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Database do
+    4:   include Redistat::Database
+    5  
+    6    it "should make #db method available when included" do
+    7:     db.should == Redistat.redis
+    8    end
+    9  
+
+/Users/felipeclopes/projects/redisrank/spec/date_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Date do
+    4  
+    5    it "should initialize from Time object" do
+    6      now = Time.now
+    7:     [Redistat::Date.new(now), now.to_rs].each do |rdate|
+    8:       Redistat::Date::DEPTHS.each { |k| rdate.send(k).should == now.send(k) }
+    9      end
+   10    end
+   ..
+   12    it "should initialize from Date object" do
+   13      today = Date.today
+   14:     [Redistat::Date.new(today), today.to_rs].each do |rdate|
+   15        [:year, :month, :day].each { |k| rdate.send(k).should == today.send(k) }
+   16        [:hour, :min, :sec, :usec].each { |k| rdate.send(k).should == 0 }
+   ..
+   21      now = Time.now.to_i
+   22      time = Time.at(now)
+   23:     [Redistat::Date.new(now), now.to_rs].each do |rdate|
+   24        [:year, :month, :day, :hour, :min, :sec].each { |k| rdate.send(k).should == time.send(k) }
+   25      end
+   ..
+   28    it "should initialize from String object" do
+   29      now = Time.now
+   30:     rdate = Redistat::Date.new(now.to_s)
+   31      [:year, :month, :day, :hour, :min, :sec].each { |k| rdate.send(k).should == now.send(k) }
+   32    end
+   33  
+   34:   it "should initialize from Redistat date String" do
+   35      now = Time.now
+   36:     rdate = Redistat::Date.new(now.to_s)
+   37      [:year, :month, :day, :hour, :min, :sec].each { |k|
+   38:       rdate.to_s(k).should == Redistat::Date.new(rdate.to_s(k)).to_s(k)
+   39      }
+   40    end
+   ..
+   42    it "should convert to Time object" do
+   43      now = Time.now
+   44:     rdate = Redistat::Date.new(now)
+   45      rdate.to_time.to_s.should == now.to_s
+   46    end
+   ..
+   48    it "should convert to Date object" do
+   49      today = Date.today
+   50:     rdate = Redistat::Date.new(today)
+   51      rdate.to_date.to_s.should == today.to_s
+   52    end
+   ..
+   54    it "should convert to Fixnum object (UNIX Timestamp)" do
+   55      now = Time.now
+   56:     rdate = Redistat::Date.new(now)
+   57      rdate.to_i.should == now.to_i
+   58    end
+   ..
+   61      today = Date.today
+   62      now = Time.now
+   63:     [[now, Redistat::Date.new(now)], [today, Redistat::Date.new(today)]].each do |current, rdate|
+   64        props = [:year, :month, :day, :hour, :min, :sec, nil]
+   65        if rdate.usec > 0
+   ..
+   82      now = Time.now
+   83  
+   84:     date = Redistat::Date.new(now)
+   85      date.depth.should be_nil
+   86      date.to_s.should == now.to_rs(:sec).to_s
+   87      date.to_s.should == now.to_rs.to_s(:sec)
+   88  
+   89:     date = Redistat::Date.new(now, :hour)
+   90      date.depth.should == :hour
+   91      date.to_s.should == now.to_rs(:hour).to_s
+
+/Users/felipeclopes/projects/redisrank/spec/event_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Event do
+    4:   include Redistat::Database
+    5  
+    6    before(:each) do
+    .
+   13      @options = {:depth => :hour}
+   14      @date = Time.now
+   15:     @event = Redistat::Event.new(@scope, @label, @date, @stats, @options, @meta)
+   16    end
+   17  
+   ..
+   44  
+   45    it "should increment next_id" do
+   46:     event = Redistat::Event.new("VisitorCount", @label, @date, @stats, @options, @meta)
+   47      @event.next_id.should == 1
+   48      event.next_id.should == 1
+   ..
+   52  
+   53    it "should store event properly" do
+   54:     @event = Redistat::Event.new(@scope, @label, @date, @stats, @options.merge({:store_event => true}), @meta)
+   55      expect(@event.new?).to be true
+   56      @event.save
+   57      expect(@event.new?).to be false
+   58      keys = db.keys "*"
+   59:     keys.should include("#{@event.scope}#{Redistat::KEY_EVENT}#{@event.id}")
+   60:     keys.should include("#{@event.scope}#{Redistat::KEY_EVENT_IDS}")
+   61    end
+   62  
+   63    it "should find event by id" do
+   64:     @event = Redistat::Event.new(@scope, @label, @date, @stats, @options.merge({:store_event => true}), @meta).save
+   65:     fetched = Redistat::Event.find(@scope, @event.id)
+   66      @event.scope.to_s.should == fetched.scope.to_s
+   67      @event.label.to_s.should == fetched.label.to_s
+   ..
+   73    it "should store summarized statistics" do
+   74      2.times do |i|
+   75:       @event = Redistat::Event.new(@scope, @label, @date, @stats, @options, @meta).save
+   76:       Redistat::Date::DEPTHS.each do |depth|
+   77          summary = db.zrevrange @event.key.to_s(depth), 0, -1, :with_scores => true
+   78          expect(summary.count).to be > 0
+
+/Users/felipeclopes/projects/redisrank/spec/finder/date_set_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Finder::DateSet do
+    4  
+    5    before(:all) do
+    6:     @finder = Redistat::Finder::DateSet.new
+    7    end
+    8  
+    .
+   10      t_start = Time.utc(2010, 8, 28, 22, 54, 57)
+   11      t_end = Time.utc(2013, 12, 4, 22, 52, 3)
+   12:     result = Redistat::Finder::DateSet.new(t_start, t_end)
+   13      result.should == [
+   14        { :add => ["2010082822", "2010082823"],             :rem => []             },
+   ..
+   26  
+   27      t_end = t_start + 4.hours
+   28:     result = Redistat::Finder::DateSet.new.find_date_sets(t_start, t_end, :hour, true)
+   29      result[0][:add].should == ["2010082818", "2010082819", "2010082820", "2010082821", "2010082822"]
+   30      result[0][:rem].should == []
+   31:     result.should == Redistat::Finder::DateSet.new(t_start, t_end, nil, :hour)
+   32  
+   33      t_end = t_start + 4.days
+   34:     result = Redistat::Finder::DateSet.new.find_date_sets(t_start, t_end, :day, true)
+   35      result[0][:add].should == ["20100828", "20100829", "20100830", "20100831", "20100901"]
+   36      result[0][:rem].should == []
+   37:     result.should == Redistat::Finder::DateSet.new(t_start, t_end, nil, :day)
+   38    end
+   39  
+
+/Users/felipeclopes/projects/redisrank/spec/finder_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Finder do
+    4:   include Redistat::Database
+    5  
+    6    before(:each) do
+    .
+    9      @label = "about_us"
+   10      @date = Time.now
+   11:     @key = Redistat::Key.new(@scope, @label, @date, {:depth => :day})
+   12      @stats = {"user_3" => 3, "user_2" => 2}
+   13      @stats2 = {"user_3" => 6, "user_2" => 2}
+   ..
+   19      options = {:scope => "PageViews", :label => "Label", :from => @two_hours_ago, :till => @one_hour_ago, :depth => :hour, :interval => :hour}
+   20  
+   21:     finder = Redistat::Finder.new
+   22      finder.send(:set_options, options)
+   23:     finder.options[:scope].should be_a(Redistat::Scope)
+   24      finder.options[:scope].to_s.should == options[:scope]
+   25:     finder.options[:label].should be_a(Redistat::Label)
+   26      finder.options[:label].to_s.should == options[:label]
+   27      finder.options.should == options.merge(:scope => finder.options[:scope], :label => finder.options[:label])
+   28  
+   29:     finder = Redistat::Finder.scope("hello")
+   30      finder.options[:scope].to_s.should == "hello"
+   31      finder.scope.to_s.should == "hello"
+   32  
+   33:     finder = Redistat::Finder.label("hello")
+   34      finder.options[:label].to_s.should == "hello"
+   35      finder.label.to_s.should == "hello"
+   36  
+   37:     finder = Redistat::Finder.dates(@two_hours_ago, @one_hour_ago)
+   38      finder.options[:from].should == @two_hours_ago
+   39      finder.options[:till].should == @one_hour_ago
+   40  
+   41:     finder = Redistat::Finder.from(@two_hours_ago)
+   42      finder.options[:from].should == @two_hours_ago
+   43      finder.from.should == @two_hours_ago
+   44  
+   45:     finder = Redistat::Finder.till(@one_hour_ago)
+   46      finder.options[:till].should == @one_hour_ago
+   47      finder.till.should == @one_hour_ago
+   48  
+   49:     finder = Redistat::Finder.depth(:hour)
+   50      finder.options[:depth].should == :hour
+   51      finder.depth.should == :hour
+   52  
+   53:     finder = Redistat::Finder.interval(true)
+   54      expect(finder.options[:interval]).to be true
+   55      expect(finder.interval).to be true
+   56:     finder = Redistat::Finder.interval(false)
+   57      expect(finder.options[:interval]).to be false
+   58      expect(finder.interval).to be false
+   ..
+   62      first_stat, last_stat = create_example_stats
+   63  
+   64:     stats = Redistat::Finder.find({:from => first_stat, :till => last_stat, :scope => @scope, :label => @label, :depth => :hour})
+   65      stats.from.should  == first_stat
+   66      stats.till.should  == last_stat
+   ..
+   73      first_stat, last_stat = create_example_stats
+   74  
+   75:     stats = Redistat::Finder.find(:from => first_stat, :till => last_stat, :scope => @scope, :label => @label, :depth => :hour, :interval => :hour)
+   76      stats.from.should == first_stat
+   77      stats.till.should == last_stat
+   ..
+   90  
+   91    it "should return empty hash when attempting to fetch non-existent results" do
+   92:     stats = Redistat::Finder.find({:from => 3.hours.ago, :till => 2.hours.from_now, :scope => @scope, :label => @label, :depth => :hour})
+   93      stats.rank.should == {}
+   94    end
+   95  
+   96    it "should throw error on invalid options" do
+   97:     lambda { Redistat::Finder.find(:from => 3.hours.ago) }.should raise_error(Redistat::InvalidOptions)
+   98    end
+   99  
+  ...
+  101      before(:each) do
+  102        @options = {:scope => "PageViews", :label => "message/public", :from => @two_hours_ago, :till => @one_hour_ago, :depth => :hour, :interval => :hour}
+  103:       @finder = Redistat::Finder.new(@options)
+  104      end
+  105  
+  106      it "should return parent finder" do
+  107        @finder.instance_variable_get("@parent").should be_nil
+  108:       @finder.parent.should be_a(Redistat::Finder)
+  109        @finder.instance_variable_get("@parent").should_not be_nil
+  110        @finder.parent.options[:label].to_s.should == 'message'
+  ...
+  117  
+  118      it "should find children" do
+  119:       Redistat::Key.new("PageViews", "message/public/die").update_index
+  120:       Redistat::Key.new("PageViews", "message/public/live").update_index
+  121:       Redistat::Key.new("PageViews", "message/public/fester").update_index
+  122:       members = db.smembers("#{@scope}#{Redistat::LABEL_INDEX}message/public") # checking 'message/public'
+  123:       @finder.children.first.should be_a(Redistat::Finder)
+  124        subs = @finder.children.map { |f| f.options[:label].me }
+  125        expect(subs.count).to eq(3)
+  ...
+  135        @first_stat, @last_stat = create_example_stats
+  136  
+  137:       @finder = Redistat::Finder.new
+  138        @finder.from(@first_stat).till(@last_stat).scope(@scope).label(@label).depth(:hour)
+  139  
+  ...
+  192  
+  193    def create_example_stats
+  194:     key = Redistat::Key.new(@scope, @label, (first = Time.parse("2010-05-14 13:43")))
+  195:     Redistat::Summary.send(:update_fields, key, @stats, :hour)
+  196:     key = Redistat::Key.new(@scope, @label, Time.parse("2010-05-14 13:53"))
+  197:     Redistat::Summary.send(:update_fields, key, @stats, :hour)
+  198:     key = Redistat::Key.new(@scope, @label, Time.parse("2010-05-14 14:52"))
+  199:     Redistat::Summary.send(:update_fields, key, @stats, :hour)
+  200:     key = Redistat::Key.new(@scope, @label, (last = Time.parse("2010-05-14 15:02")))
+  201:     Redistat::Summary.send(:update_fields, key, @stats2, :hour)
+  202      [first - 1.hour, last + 1.hour]
+  203    end
+
+/Users/felipeclopes/projects/redisrank/spec/key_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Key do
+    4:   include Redistat::Database
+    5  
+    6    before(:each) do
+    .
+   10      @label_hash = Digest::SHA1.hexdigest(@label)
+   11      @date = Time.now
+   12:     @key = Redistat::Key.new(@scope, @label, @date, {:depth => :hour})
+   13    end
+   14  
+   ..
+   18      @key.label_hash.should == @label_hash
+   19      @key.groups.map { |k| k.instance_variable_get("@label") }.should == @key.instance_variable_get("@label").groups
+   20:     @key.date.should be_instance_of(Redistat::Date)
+   21      @key.date.to_time.to_s.should == @date.to_s
+   22    end
+   ..
+   29        props.pop
+   30      end
+   31:     key = Redistat::Key.new(@scope, nil, @date, {:depth => :hour})
+   32      key.to_s.should == "#{@scope}:#{key.date.to_s(:hour)}"
+   33    end
+   34  
+   35    it "should abide to hashed_label option" do
+   36:     @key = Redistat::Key.new(@scope, @label, @date, {:depth => :hour, :hashed_label => true})
+   37      @key.to_s.should == "#{@scope}/#{@label_hash}:#{@key.date.to_s(:hour)}"
+   38:     @key = Redistat::Key.new(@scope, @label, @date, {:depth => :hour, :hashed_label => false})
+   39      @key.to_s.should == "#{@scope}/#{@label}:#{@key.date.to_s(:hour)}"
+   40    end
+   41  
+   42    it "should have default depth option" do
+   43:     @key = Redistat::Key.new(@scope, @label, @date)
+   44      @key.depth.should == :hour
+   45    end
+   ..
+   69      before(:each) do
+   70        @label = "message/public/offensive"
+   71:       @key = Redistat::Key.new(@scope, @label, @date, {:depth => :hour})
+   72      end
+   73  
+   ..
+   78                   "message" ]
+   79  
+   80:       key = Redistat::Key.new(@scope, label, @date, {:depth => :hour})
+   81  
+   82        key.groups.map { |k| k.label.to_s }.should == result
+   ..
+   84  
+   85      it "should know it's parent" do
+   86:       @key.parent.should be_a(Redistat::Key)
+   87        @key.parent.label.to_s.should == 'message/public'
+   88:       Redistat::Key.new(@scope, 'hello', @date).parent.should be_nil
+   89      end
+   90  
+   91      it "should update label index and return children" do
+   92:       db.smembers("#{@scope}#{Redistat::LABEL_INDEX}#{@key.label.parent}").should == []
+   93        @key.children.count.should be(0)
+   94  
+   95        @key.update_index                                                  # indexing 'message/publish/offensive'
+   96:       Redistat::Key.new("PageViews", "message/public/die").update_index  # indexing 'message/publish/die'
+   97:       Redistat::Key.new("PageViews", "message/public/live").update_index # indexing 'message/publish/live'
+   98  
+   99:       members = db.smembers("#{@scope}#{Redistat::LABEL_INDEX}#{@key.label.parent}") # checking 'message/public'
+  100        members.count.should be(3)
+  101        members.should include('offensive')
+  ...
+  104  
+  105        key = @key.parent
+  106:       key.children.first.should be_a(Redistat::Key)
+  107        key.children.count.should be(3)
+  108        key.children.map { |k| k.label.me }.should == members
+  109  
+  110:       members = db.smembers("#{@scope}#{Redistat::LABEL_INDEX}#{key.label.parent}") # checking 'message'
+  111        members.count.should be(1)
+  112        members.should include('public')
+  ...
+  116        key.children.map { |k| k.label.me }.should == members
+  117  
+  118:       members = db.smembers("#{@scope}#{Redistat::LABEL_INDEX}") # checking ''
+  119        members.count.should be(1)
+  120        members.should include('message')
+  121  
+  122        key.parent.should be_nil
+  123:       key = Redistat::Key.new("PageViews")
+  124        key.children.count.should be(1)
+  125        key.children.map { |k| k.label.me }.should include('message')
+
+/Users/felipeclopes/projects/redisrank/spec/label_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Label do
+    4:   include Redistat::Database
+    5  
+    6    before(:each) do
+    7      db.flushdb
+    8      @name = "about_us"
+    9:     @label = Redistat::Label.new(@name)
+   10    end
+   11  
+   ..
+   16  
+   17    it "should store a label hash lookup key" do
+   18:     label = Redistat::Label.new(@name, {:hashed_label => true}).save
+   19      label.saved?.should be(true)
+   20:     db.hget(Redistat::KEY_LABELS, label.hash).should == @name
+   21  
+   22      name = "contact_us"
+   23:     label = Redistat::Label.create(name, {:hashed_label => true})
+   24      label.saved?.should be(true)
+   25:     db.hget(Redistat::KEY_LABELS, label.hash).should == name
+   26    end
+   27  
+   28    it "should join labels" do
+   29:     include Redistat
+   30:     label = Redistat::Label.join('email', 'message', 'public')
+   31:     label.should be_a(Redistat::Label)
+   32      label.to_s.should == 'email/message/public'
+   33:     label = Redistat::Label.join(Redistat::Label.new('email'), Redistat::Label.new('message'), Redistat::Label.new('public'))
+   34:     label.should be_a(Redistat::Label)
+   35      label.to_s.should == 'email/message/public'
+   36:     label = Redistat::Label.join('email', '', 'message', nil, 'public')
+   37:     label.should be_a(Redistat::Label)
+   38      label.to_s.should == 'email/message/public'
+   39    end
+   40  
+   41    it "should allow you to use a different group separator" do
+   42:     include Redistat
+   43:     Redistat.group_separator = '|'
+   44:     label = Redistat::Label.join('email', 'message', 'public')
+   45:     label.should be_a(Redistat::Label)
+   46      label.to_s.should == 'email|message|public'
+   47:     label = Redistat::Label.join(Redistat::Label.new('email'), Redistat::Label.new('message'), Redistat::Label.new('public'))
+   48:     label.should be_a(Redistat::Label)
+   49      label.to_s.should == 'email|message|public'
+   50:     label = Redistat::Label.join('email', '', 'message', nil, 'public')
+   51:     label.should be_a(Redistat::Label)
+   52      label.to_s.should == 'email|message|public'
+   53:     Redistat.group_separator = Redistat::GROUP_SEPARATOR
+   54    end
+   55  
+   ..
+   57      before(:each) do
+   58        @name = "message/public/offensive"
+   59:       @label = Redistat::Label.new(@name)
+   60      end
+   61  
+   62      it "should know it's parent label group" do
+   63        @label.parent.to_s.should == 'message/public'
+   64:       Redistat::Label.new('hello').parent.should be_nil
+   65      end
+   66  
+   ..
+   72  
+   73        @name = "/message/public/"
+   74:       @label = Redistat::Label.new(@name)
+   75        @label.name.should == @name
+   76        @label.groups.map { |l| l.to_s }.should == [ "message/public",
+   ..
+   78  
+   79        @name = "message"
+   80:       @label = Redistat::Label.new(@name)
+   81        @label.name.should == @name
+   82        @label.groups.map { |l| l.to_s }.should == [ "message" ]
+
+/Users/felipeclopes/projects/redisrank/spec/model_helper.rb:
+    2  
+    3  class ModelHelper1
+    4:   include Redistat::Model
+    5  
+    6  
+    .
+    8  
+    9  class ModelHelper2
+   10:   include Redistat::Model
+   11  
+   12    depth :day
+   ..
+   17  
+   18  class ModelHelper3
+   19:   include Redistat::Model
+   20  
+   21    connect_to :port => 8379, :db => 14
+   ..
+   24  
+   25  class ModelHelper4
+   26:   include Redistat::Model
+   27  
+   28    scope "FancyHelper"
+
+/Users/felipeclopes/projects/redisrank/spec/model_spec.rb:
+    2  require "model_helper"
+    3  
+    4: describe Redistat::Model do
+    5:   include Redistat::Database
+    6  
+    7    before(:each) do
+    .
+   22      one_hour_ago  = 1.hour.ago
+   23      finder = ModelHelper1.find('label', two_hours_ago, one_hour_ago)
+   24:     finder.should be_a(Redistat::Finder)
+   25      finder.options[:scope].to_s.should == 'ModelHelper1'
+   26      finder.options[:label].to_s.should == 'label'
+   ..
+   30  
+   31    it "should #find_event" do
+   32:     Redistat::Event.should_receive(:find).with('ModelHelper1', 1)
+   33      ModelHelper1.find_event(1)
+   34    end
+   ..
+  151    describe "Write Buffer" do
+  152      before(:each) do
+  153:       Redistat.buffer_size = 20
+  154      end
+  155  
+  156      after(:each) do
+  157:       Redistat.buffer_size = 0
+  158      end
+  159  
+  ...
+  181        end
+  182        ModelHelper1.fetch("sheep.black", @time.hours_ago(5), @time.hours_since(1)).rank.should == {}
+  183:       Redistat.buffer.flush(true)
+  184  
+  185        stats = ModelHelper1.fetch("sheep.black", @time.hours_ago(5), @time.hours_since(1))
+
+/Users/felipeclopes/projects/redisrank/spec/options_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Options do
+    4  
+    5    before(:each) do
+    .
+   24  
+   25  class OptionsHelper
+   26:   include Redistat::Options
+   27  
+   28    option_accessor :hello
+
+/Users/felipeclopes/projects/redisrank/spec/result_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Result do
+    4  
+    5    it "should should initialize properly" do
+    6      options = {:from => "from", :till => "till"}
+    7:     result = Redistat::Result.new(options)
+    8      result.from.should == "from"
+    9      result.till.should == "till"
+   ..
+   11  
+   12    it "should have merge_to_max method" do
+   13:     result = Redistat::Result.new
+   14      result[:world].should be_nil
+   15      result.merge_to_max(:world, 3)
+
+/Users/felipeclopes/projects/redisrank/spec/scope_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Scope do
+    4:   include Redistat::Database
+    5  
+    6    before(:all) do
+    .
+   10    before(:each) do
+   11      @name = "PageViews"
+   12:     @scope = Redistat::Scope.new(@name)
+   13    end
+   14  
+   ..
+   18  
+   19    it "should increment next_id" do
+   20:     scope = Redistat::Scope.new("Visitors")
+   21      @scope.next_id.should == 1
+   22      scope.next_id.should == 1
+
+/Users/felipeclopes/projects/redisrank/spec/spec_helper.rb:
+   14  require 'rspec/autorun'
+   15  
+   16: # use the test Redistat instance
+   17: Redistat.connect(:port => 8379, :db => 15, :thread_safe => true)
+   18: Redistat.redis.flushdb
+   19  
+
+/Users/felipeclopes/projects/redisrank/spec/summary_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: describe Redistat::Summary do
+    4:   include Redistat::Database
+    5  
+    6    before(:each) do
+    .
+    9      @label = "about_us"
+   10      @date = Time.now
+   11:     @key = Redistat::Key.new(@scope, @label, @date, {:depth => :day})
+   12      @stats = {"views" => 3, "visitors" => 2}
+   13      @expire = {:hour => 24*3600}
+   ..
+   15  
+   16    it "should update a single summary properly" do
+   17:     Redistat::Summary.send(:update_fields, @key, @stats, :hour)
+   18      summary = db.zrevrange(@key.to_s(:hour), 0, -1, :with_scores => true)
+   19      expect(summary.count).to be 2
+   ..
+   25      expect(visitors.last).to be 2.0
+   26  
+   27:     Redistat::Summary.send(:update_fields, @key, @stats, :hour)
+   28      summary = db.zrevrange(@key.to_s(:hour), 0, -1, :with_scores => true)
+   29      expect(summary.count).to be 2
+   ..
+   37  
+   38    it "should set key expiry properly" do
+   39:     Redistat::Summary.update_all(@key, @stats, :hour,{:expire => @expire})
+   40      ((24*3600)-1..(24*3600)+1).should include(db.ttl(@key.to_s(:hour)))
+   41      [:day, :month, :year].each do |depth|
+   ..
+   44  
+   45      db.flushdb
+   46:     Redistat::Summary.update_all(@key, @stats, :hour, {:expire => {}})
+   47      [:hour, :day, :month, :year].each do |depth|
+   48        db.ttl(@key.to_s(depth)).should == -1
+   ..
+   51  
+   52    it "should update all summaries properly" do
+   53:     Redistat::Summary.update_all(@key, @stats, :sec)
+   54      [:year, :month, :day, :hour, :min, :sec, :usec].each do |depth|
+   55        summary = db.zrevrange(@key.to_s(depth), 0, -1, :with_scores => true)
+   ..
+   69  
+   70    it "should update summaries even if no label is set" do
+   71:     key = Redistat::Key.new(@scope, nil, @date, {:depth => :day})
+   72:     Redistat::Summary.send(:update_fields, key, @stats, :hour)
+   73      summary = db.zrevrange(key.to_s(:hour), 0, -1, :with_scores => true)
+   74      views = summary.first 
+   ..
+   84               "death/bomb"  => 4, "death/unicorn" => 3,
+   85               :"od/sugar"   => 7, :"od/meth"      => 8 }
+   86:     res = Redistat::Summary.send(:inject_group_summaries, hash)
+   87      res.should == { "count" => 10, "count/hello" => 3, "count/world"   => 7,
+   88                      "death" => 7,  "death/bomb"  => 4, "death/unicorn" => 3,
+   ..
+   92    it "should properly store key group summaries" do
+   93      stats = {"views" => 3, "visitors/eu" => 2, "visitors/us" => 4}
+   94:     Redistat::Summary.update_all(@key, stats, :hour)
+   95      summary = db.zrevrange(@key.to_s(:hour), 0, -1, :with_scores => true)
+   96      summary.count.should eq(4)
+   ..
+  109    it "should not store key group summaries when option is disabled" do
+  110      stats = {"views" => 3, "visitors/eu" => 2, "visitors/us" => 4}
+  111:     Redistat::Summary.update_all(@key, stats, :hour, {:enable_grouping => false})
+  112      summary = db.zrevrange(@key.to_s(:hour), 0, -1, :with_scores => true)
+  113      summary.count.should eq(3)
+  ...
+  125      stats = {"views" => 3, "visitors/eu" => 2, "visitors/us" => 4}
+  126      label = "views/about_us"
+  127:     key = Redistat::Key.new(@scope, label, @date)
+  128:     Redistat::Summary.update_all(key, stats, :hour)
+  129  
+  130      key.groups[0].label.to_s.should == "views/about_us"
+  ...
+  134  
+  135      label = "views/contact"
+  136:     key = Redistat::Key.new(@scope, label, @date)
+  137:     Redistat::Summary.update_all(key, stats, :hour)
+  138  
+  139      key.groups[0].label.to_s.should == "views/contact"
+
+/Users/felipeclopes/projects/redisrank/spec/synchronize_spec.rb:
+    1  require "spec_helper"
+    2  
+    3: module Redistat
+    4    describe Synchronize do
+    5  
+    .
+   62  
+   63        describe '.monitor' do
+   64:         it 'defers to Redistat::Synchronize' do
+   65            klass.should_receive(:monitor).once
+   66            subject.monitor
+   ..
+   69  
+   70        describe '.thread_safe' do
+   71:         it ' defers to Redistat::Synchronize' do
+   72            klass.should_receive(:thread_safe).once
+   73            subject.thread_safe
+   ..
+   76  
+   77        describe '.thread_safe=' do
+   78:         it 'defers to Redistat::Synchronize' do
+   79            klass.should_receive(:thread_safe=).once.with(true)
+   80            subject.thread_safe = true
+   ..
+  119  
+  120    end # Synchronize
+  121: end # Redistat
+  122  
+  123  class SynchronizeSpecHelper
+  124:   include Redistat::Synchronize
+  125  end
+  126  
+
+/Users/felipeclopes/projects/redisrank/spec/thread_safety_spec.rb:
+    2  
+    3  describe "Thread-Safety" do
+    4:   include Redistat::Database
+    5  
+    6    before(:each) do
+    .
+   23    it "should store event in multiple threads" do
+   24      class ThreadSafetySpec
+   25:       include Redistat::Model
+   26      end
+   27      threads = []
+
+304 matches across 46 files

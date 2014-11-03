@@ -1,4 +1,4 @@
-module Redistat
+module Redisrank
   module Options
 
     def self.included(base)

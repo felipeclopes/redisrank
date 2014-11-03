@@ -1,15 +1,15 @@
 require "spec_helper"
 
-describe Redistat::Finder::DateSet do
+describe Redisrank::Finder::DateSet do
 
   before(:all) do
-    @finder = Redistat::Finder::DateSet.new
+    @finder = Redisrank::Finder::DateSet.new
   end
 
   it "should initialize properly" do
     t_start = Time.utc(2010, 8, 28, 22, 54, 57)
     t_end = Time.utc(2013, 12, 4, 22, 52, 3)
-    result = Redistat::Finder::DateSet.new(t_start, t_end)
+    result = Redisrank::Finder::DateSet.new(t_start, t_end)
     result.should == [
       { :add => ["2010082822", "2010082823"],             :rem => []             },
       { :add => ["20131204"],                             :rem => ["2013120423"] },
@@ -25,16 +25,16 @@ describe Redistat::Finder::DateSet do
     t_start = Time.utc(2010, 8, 28, 18, 54, 57)
 
     t_end = t_start + 4.hours
-    result = Redistat::Finder::DateSet.new.find_date_sets(t_start, t_end, :hour, true)
+    result = Redisrank::Finder::DateSet.new.find_date_sets(t_start, t_end, :hour, true)
     result[0][:add].should == ["2010082818", "2010082819", "2010082820", "2010082821", "2010082822"]
     result[0][:rem].should == []
-    result.should == Redistat::Finder::DateSet.new(t_start, t_end, nil, :hour)
+    result.should == Redisrank::Finder::DateSet.new(t_start, t_end, nil, :hour)
 
     t_end = t_start + 4.days
-    result = Redistat::Finder::DateSet.new.find_date_sets(t_start, t_end, :day, true)
+    result = Redisrank::Finder::DateSet.new.find_date_sets(t_start, t_end, :day, true)
     result[0][:add].should == ["20100828", "20100829", "20100830", "20100831", "20100901"]
     result[0][:rem].should == []
-    result.should == Redistat::Finder::DateSet.new(t_start, t_end, nil, :day)
+    result.should == Redisrank::Finder::DateSet.new(t_start, t_end, nil, :day)
   end
 
   it "should find start keys properly" do

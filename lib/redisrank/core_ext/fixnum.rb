@@ -1,5 +1,5 @@
 class Fixnum
-  include Redistat::DateHelper
+  include Redisrank::DateHelper
 
   def to_time
     Time.at(self)

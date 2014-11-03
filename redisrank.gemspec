@@ -1,18 +1,18 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "redistat/version"
+require "redisrank/version"
 
 Gem::Specification.new do |s|
-  s.name        = "redistat"
-  s.version     = Redistat::VERSION
+  s.name        = "redisrank"
+  s.version     = Redisrank::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Jim Myhrberg"]
-  s.email       = ["contact@jimeh.me"]
-  s.homepage    = "http://github.com/jimeh/redistat"
-  s.summary     = %q{A Redis-backed statistics storage and querying library written in Ruby.}
-  s.description = %q{A Redis-backed statistics storage and querying library written in Ruby.}
+  s.authors     = ["Felipe Lopes"]
+  s.email       = ["felipelopes10@gmail.com"]
+  s.homepage    = "http://github.com/felipeclopes/redisrank"
+  s.summary     = %q{A Redis-backed ranking storage and querying library written in Ruby.}
+  s.description = %q{A Redis-backed ranking storage and querying library written in Ruby.}
 
-  s.rubyforge_project = "redistat"
+  s.rubyforge_project = "redisrank"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

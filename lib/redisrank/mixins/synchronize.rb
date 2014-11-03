@@ -1,6 +1,6 @@
 require 'monitor'
 
-module Redistat
+module Redisrank
   module Synchronize
 
     class << self

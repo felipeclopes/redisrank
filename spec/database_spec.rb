@@ -1,10 +1,10 @@
 require "spec_helper"
 
-describe Redistat::Database do
-  include Redistat::Database
+describe Redisrank::Database do
+  include Redisrank::Database
 
   it "should make #db method available when included" do
-    db.should == Redistat.redis
+    db.should == Redisrank.redis
   end
 
 end

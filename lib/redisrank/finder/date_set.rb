@@ -1,4 +1,4 @@
-module Redistat
+module Redisrank
   class Finder
     class DateSet < Array
 

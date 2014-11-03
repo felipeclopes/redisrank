@@ -1,6 +1,6 @@
 require 'active_support/core_ext/hash/indifferent_access'
 
-module Redistat
+module Redisrank
   class Result < HashWithIndifferentAccess
 
     attr_accessor :from

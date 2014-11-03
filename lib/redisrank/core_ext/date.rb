@@ -1,5 +1,5 @@
 class Date
-  include Redistat::DateHelper
+  include Redisrank::DateHelper
 
   def to_time
     Time.parse(self.to_s)

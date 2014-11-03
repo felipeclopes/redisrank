@@ -1,7 +1,7 @@
 require "spec_helper"
 
-describe Redistat::Scope do
-  include Redistat::Database
+describe Redisrank::Scope do
+  include Redisrank::Database
 
   before(:all) do
     db.flushdb
@@ -9,7 +9,7 @@ describe Redistat::Scope do
 
   before(:each) do
     @name = "PageViews"
-    @scope = Redistat::Scope.new(@name)
+    @scope = Redisrank::Scope.new(@name)
   end
 
   it "should initialize properly" do
@@ -17,7 +17,7 @@ describe Redistat::Scope do
   end
 
   it "should increment next_id" do
-    scope = Redistat::Scope.new("Visitors")
+    scope = Redisrank::Scope.new("Visitors")
     @scope.next_id.should == 1
     scope.next_id.should == 1
     @scope.next_id.should == 2

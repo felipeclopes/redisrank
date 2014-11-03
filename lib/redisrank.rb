@@ -16,33 +16,33 @@ require 'time_ext'
 require 'redis'
 require 'json'
 
-require 'redistat/mixins/options'
-require 'redistat/mixins/synchronize'
-require 'redistat/mixins/database'
-require 'redistat/mixins/date_helper'
+require 'redisrank/mixins/options'
+require 'redisrank/mixins/synchronize'
+require 'redisrank/mixins/database'
+require 'redisrank/mixins/date_helper'
 
-require 'redistat/connection'
-require 'redistat/buffer'
-require 'redistat/collection'
-require 'redistat/date'
-require 'redistat/event'
-require 'redistat/finder'
-require 'redistat/key'
-require 'redistat/label'
-require 'redistat/model'
-require 'redistat/result'
-require 'redistat/scope'
-require 'redistat/summary'
-require 'redistat/version'
+require 'redisrank/connection'
+require 'redisrank/buffer'
+require 'redisrank/collection'
+require 'redisrank/date'
+require 'redisrank/event'
+require 'redisrank/finder'
+require 'redisrank/key'
+require 'redisrank/label'
+require 'redisrank/model'
+require 'redisrank/result'
+require 'redisrank/scope'
+require 'redisrank/summary'
+require 'redisrank/version'
 
-require 'redistat/core_ext'
+require 'redisrank/core_ext'
 
 
-module Redistat
+module Redisrank
 
   KEY_NEXT_ID = ".next_id"
   KEY_EVENT = ".event:"
-  KEY_LABELS = "Redistat.labels:" # used for reverse label hash lookup
+  KEY_LABELS = "Redisrank.labels:" # used for reverse label hash lookup
   KEY_EVENT_IDS = ".event_ids"
   LABEL_INDEX = ".label_index:"
   GROUP_SEPARATOR = "/"
@@ -87,7 +87,7 @@ module Redistat
     end
 
     def flush
-      puts "WARNING: Redistat.flush is deprecated. Use Redistat.redis.flushdb instead."
+      puts "WARNING: Redisrank.flush is deprecated. Use Redisrank.redis.flushdb instead."
       connection.flushdb
     end
 
@@ -102,5 +102,5 @@ end
 
 # ensure buffer is flushed on program exit
 Kernel.at_exit do
-  Redistat.buffer.flush(true)
+  Redisrank.buffer.flush(true)
 end

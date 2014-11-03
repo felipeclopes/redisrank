@@ -1,6 +1,6 @@
 require "spec_helper"
 
-module Redistat
+module Redisrank
   describe Synchronize do
 
     let(:klass) { Synchronize }
@@ -61,21 +61,21 @@ module Redistat
       subject { SynchronizeSpecHelper.new }
 
       describe '.monitor' do
-        it 'defers to Redistat::Synchronize' do
+        it 'defers to Redisrank::Synchronize' do
           klass.should_receive(:monitor).once
           subject.monitor
         end
       end # monitor
 
       describe '.thread_safe' do
-        it ' defers to Redistat::Synchronize' do
+        it ' defers to Redisrank::Synchronize' do
           klass.should_receive(:thread_safe).once
           subject.thread_safe
         end
       end # thread_safe
 
       describe '.thread_safe=' do
-        it 'defers to Redistat::Synchronize' do
+        it 'defers to Redisrank::Synchronize' do
           klass.should_receive(:thread_safe=).once.with(true)
           subject.thread_safe = true
         end
@@ -118,8 +118,8 @@ module Redistat
     end
 
   end # Synchronize
-end # Redistat
+end # Redisrank
 
 class SynchronizeSpecHelper
-  include Redistat::Synchronize
+  include Redisrank::Synchronize
 end

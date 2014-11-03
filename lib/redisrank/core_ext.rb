@@ -1,0 +1,5 @@
+require 'redisrank/core_ext/bignum'
+require 'redisrank/core_ext/date'
+require 'redisrank/core_ext/fixnum'
+require 'redisrank/core_ext/hash'
+require 'redisrank/core_ext/time'

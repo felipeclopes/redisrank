@@ -1,13 +1,13 @@
-require "redistat"
+require "redisrank"
 
 class ModelHelper1
-  include Redistat::Model
+  include Redisrank::Model
 
 
 end
 
 class ModelHelper2
-  include Redistat::Model
+  include Redisrank::Model
 
   depth :day
   store_event true
@@ -16,14 +16,14 @@ class ModelHelper2
 end
 
 class ModelHelper3
-  include Redistat::Model
+  include Redisrank::Model
 
   connect_to :port => 8379, :db => 14
 
 end
 
 class ModelHelper4
-  include Redistat::Model
+  include Redisrank::Model
 
   scope "FancyHelper"
   expire :hour => 24*3600

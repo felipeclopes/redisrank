@@ -9,10 +9,10 @@ SimpleCov.start do
 end
 
 # require stuff
-require 'redistat'
+require 'redisrank'
 require 'rspec'
 require 'rspec/autorun'
 
-# use the test Redistat instance
-Redistat.connect(:port => 8379, :db => 15, :thread_safe => true)
-Redistat.redis.flushdb
+# use the test Redisrank instance
+Redisrank.connect(:port => 8379, :db => 15, :thread_safe => true)
+Redisrank.redis.flushdb

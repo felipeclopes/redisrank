@@ -1,10 +1,10 @@
-module Redistat
+module Redisrank
   class Collection < ::Array
 
     attr_accessor :from
     attr_accessor :till
     attr_accessor :depth
-    attr_accessor :total
+    attr_accessor :rank
 
     def initialize(options = {})
       @from = options[:from] ||= nil
@@ -12,8 +12,8 @@ module Redistat
       @depth = options[:depth] ||= nil
     end
 
-    def total
-      @total ||= {}
+    def rank
+      @rank ||= {}
     end
 
   end

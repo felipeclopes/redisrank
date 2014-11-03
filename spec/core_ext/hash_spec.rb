@@ -2,29 +2,25 @@ require "spec_helper"
 
 describe Hash do
 
-  it "should #set_or_incr values" do
+  it "should #merge_to_max values" do
     hash = {:count => 1}
-    hash.set_or_incr(:sum, 3).should be_true
-    hash.should == {:count => 1, :sum => 3}
-    hash.set_or_incr(:count, 4).should be_true
-    hash.should == {:count => 5, :sum => 3}
-    hash.set_or_incr(:count, 'test').should be_false
-    hash.set_or_incr(:view, 'test').should be_false
-    hash.should == {:count => 5, :sum => 3}
+    expect(hash.merge_to_max(:sum, 3)).to be true
+    expect(hash).to eq({:count => 1, :sum => 3})
+    expect(hash.merge_to_max(:count, 4)).to be true
+    expect(hash).to eq({:count => 4, :sum => 3})
+    expect(hash.merge_to_max(:count, 3)).to be false
+    expect(hash.merge_to_max(:count, 'test')).to be false
+    expect(hash.merge_to_max(:view, 'test')).to be false
+    expect(hash).to eq({:count => 4, :sum => 3})
     hash[:view] = 'test'
-    hash.set_or_incr(:view, 3).should be_false
+    expect(hash.merge_to_max(:view, 3)).to be false
   end
 
-  it "should #merge_and_incr hashes" do
-    hash = { :count => 1, :city => 'hell', :sum => 3, :name => 'john' }
+  it "should #merge_to_max! hashes" do
+    hash = { :count => 1, :sum => 2}
 
-    new_hash = { :count => 3, :city => 'slum', :views => 2 }
-    hash.clone.merge_and_incr(new_hash).should == { :count => 4, :city => 'slum', :views => 2,
-                                                    :sum   => 3, :name => 'john' }
-
-    new_hash = { :count => 'six', :city => 'slum', :views => 2, :time => 'late' }
-    hash.clone.merge_and_incr(new_hash).should == { :count => 'six', :city => 'slum', :views => 2,
-                                                    :sum   => 3, :name => 'john', :time => 'late' }
+    expect(hash.clone.merge_to_max!({:mult => 3, :sum => 2, :count => 2})).to eq({:count => 2, :sum => 2, :mult => 3})
+    expect(hash.clone.merge_to_max!({:mult => 3, :sum => 3, :count => 2})).to eq({:count => 2, :sum => 3, :mult => 3})
   end
 
 end

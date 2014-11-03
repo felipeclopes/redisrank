@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe "Thread-Safety" do
-  include Redistat::Database
+  include Redisrank::Database
 
   before(:each) do
     db.flushdb
@@ -22,7 +22,7 @@ describe "Thread-Safety" do
 
   it "should store event in multiple threads" do
     class ThreadSafetySpec
-      include Redistat::Model
+      include Redisrank::Model
     end
     threads = []
     50.times do

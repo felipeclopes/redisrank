@@ -1,4 +1,4 @@
-module Redistat
+module Redisrank
   module Model
     include Database
     include Options

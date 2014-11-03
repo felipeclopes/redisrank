@@ -1,6 +1,6 @@
-require 'redistat/finder/date_set'
+require 'redisrank/finder/date_set'
 
-module Redistat
+module Redisrank
   class Finder
     include Database
 
@@ -55,8 +55,8 @@ module Redistat
       @result ||= find
     end
 
-    def total
-      all.total
+    def rank
+      all.rank
     end
 
     def each(&block)
@@ -160,14 +160,14 @@ module Redistat
       raise InvalidOptions.new if !valid_options?
       key = build_key
       col = Collection.new(options)
-      col.total = Result.new(options)
+      col.rank = Result.new(options)
       build_date_sets.each do |set|
         set[:add].each do |date|
           result = Result.new
           result.date = Date.new(date).to_time
-          db.hgetall("#{key.prefix}#{date}").each do |k, v|
-            result[k] = v
-            col.total.set_or_incr(k, v.to_i)
+          db.zrevrange("#{key.prefix}#{date}", 0, -1, :with_scores => true).each do |array|
+            result[array.first] = array.last unless (result[array.first] || 0) > array.last
+            col.rank.merge_to_max!({array.first => array.last})
           end
           col << result
         end
@@ -179,16 +179,15 @@ module Redistat
       raise InvalidOptions.new if !valid_options?
       key = build_key
       col = Collection.new(options)
-      col.total = Result.new(options)
-      col << col.total
+      col.rank = Result.new(options)
+      sum = []
       build_date_sets.each do |set|
-        sum = Result.new
-        sum = summarize_add_keys(set[:add], key, sum)
-        sum = summarize_rem_keys(set[:rem], key, sum)
-        sum.each do |k, v|
-          col.total.set_or_incr(k, v.to_i)
-        end
+        _sum = summarize_add_ranks(set[:add], key, [])
+        _sum = summarize_rem_ranks(set[:rem], key, _sum)
+        _sum = summarize_ranks(_sum)
+        sum += _sum
       end
+      sum.map{|s| {s.first => s.last}}.each{|i| col.rank.merge_to_max! i}
       col
     end
 
@@ -210,22 +209,32 @@ module Redistat
       Key.new(options[:scope], options[:label])
     end
 
-    def summarize_add_keys(sets, key, sum)
+    def summarize_add_ranks(sets, key, sum)
       sets.each do |date|
-        db.hgetall("#{key.prefix}#{date}").each do |k, v|
-          sum.set_or_incr(k, v.to_i)
+        db.zrevrange("#{key.prefix}#{date}", 0, -1, :with_scores => true).each do |r|
+          sum << r
         end
       end
       sum
     end
 
-    def summarize_rem_keys(sets, key, sum)
+    def summarize_rem_ranks(sets, key, sum)
       sets.each do |date|
-        db.hgetall("#{key.prefix}#{date}").each do |k, v|
-          sum.set_or_incr(k, -v.to_i)
+        db.zrevrange("#{key.prefix}#{date}").each do |r|
+          sum.select!{|s| !(s == r)}
         end
       end
       sum
+    end
+
+    def summarize_ranks(sum)
+      result = []
+      keys = sum.map{|r| r.first}.uniq
+      keys.each do |r|
+        r_max = sum.select{|r_keys| r_keys.first == r}.map{|r_keys| r_keys.last}.max
+        result << [r, r_max]
+      end
+      result
     end
 
     def db

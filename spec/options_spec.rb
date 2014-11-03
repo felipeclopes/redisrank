@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe Redistat::Options do
+describe Redisrank::Options do
 
   before(:each) do
     @helper = OptionsHelper.new
@@ -23,7 +23,7 @@ describe Redistat::Options do
 end
 
 class OptionsHelper
-  include Redistat::Options
+  include Redisrank::Options
 
   option_accessor :hello
 
